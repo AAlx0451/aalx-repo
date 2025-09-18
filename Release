@@ -1,0 +1,9 @@
+Origin: AAlx's Repo
+Label: AAlx's OSS Builds
+Suite: stable
+Version: 1.0
+Codename: aalx-repo
+Architectures: iphoneos-arm
+Components: main
+Description: Freshly compiled tools for legacy iOS 
+devices.

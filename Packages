@@ -1,0 +1,65 @@
+Package: autoconf
+Version: 2.72-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 1756
+Depends: m4
+Filename: ./debs/autoconf_2.72_iphoneos-arm.deb
+Size: 991194
+MD5sum: 9b2bc24fe39bc8534d1690125a740eee
+SHA1: 8ce466e220325c27ccdaffbbdbe49985f6ddb1fc
+SHA256: 36ae3b49875f0167c867b8d14738b2cb57fe312edafc9e98a7237a50677da61f
+Section: Development
+Priority: optional
+Homepage: http://www.gnu.org/software/autoconf/
+Description: an intricate set of m4 macros
+Name: Autoconf
+
+Package: automake
+Version: 1.18-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 1492
+Depends: autoconf
+Filename: ./debs/automake-1.18_iphoneos-arm.deb
+Size: 706680
+MD5sum: 4b5338d0bcd5ee97f6a1c7b4e5573d1f
+SHA1: 8f040a925c1f81d305f4fffd4f34ca8c9dcd2143
+SHA256: 208b42b771c6a00c9635353931f552de03df8559310b7c06d7808044c117a335
+Section: Development
+Priority: optional
+Homepage: http://www.gnu.org/software/automake/
+Description: automatically generate verbose makefiles
+Name: Automake
+
+Package: m4
+Version: 1.4.19-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 433
+Filename: ./debs/m4-1.4.19_iphoneos-arm.deb
+Size: 1303958
+MD5sum: 7779d51640fcc2dd9754106f1b5fdc14
+SHA1: af465381e21b3612f2e413d8f5468ca28a8e0d34
+SHA256: b314a36f1c6e03725ade87177e8ef587f6db42ce37657648d9b664c9c7a25ce5
+Section: Scripting
+Priority: important
+Description: arcane macro processing engine
+Name: m4 Processor
+
+Package: perl
+Version: 5.42.0-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 97936
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/perl_5.42.0-1_iphoneos-arm.deb
+Size: 21364316
+MD5sum: c99a689322fbbe06ee901a4727eb2547
+SHA1: 53cfa899785bc26161244455cf763dfbc46d2301
+SHA256: 47fa38f14ce5e72136700fc600e3738e4ecf7977dd38ecb287c950eeb8c02c16
+Section: Scripting
+Priority: optional
+Description: awesome combination of sed and awk
+Name: Perl
+
