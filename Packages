@@ -32,6 +32,22 @@ Homepage: http://www.gnu.org/software/automake/
 Description: automatically generate verbose makefiles
 Name: Automake
 
+Package: dpkg-dev
+Version: 1-final
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 1492
+Depends: dpkg, perl (>= 5.42.0)
+Filename: ./debs/dpkg-dev_1-final_iphoneos-arm.deb
+Size: 218286
+MD5sum: 6c878786f82121cd04bcf8ce2f343cc7
+SHA1: acadefbc669c6faefc616bf48e0f8e251fb2e47c
+SHA256: 24468ccd7be0d2ca98743645978bbf4ada76217a220734e89b03d4527682d0d4
+Section: Development
+Priority: optional
+Description: dpkg development utilities
+Name: dpkg-dev
+
 Package: m4
 Version: 1.4.19-1
 Architecture: iphoneos-arm
@@ -62,4 +78,20 @@ Section: Scripting
 Priority: optional
 Description: awesome combination of sed and awk
 Name: Perl
+
+Package: readline
+Version: 8.3-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 1492
+Depends: dpkg
+Filename: ./debs/readline-8.3-iphoneos-arm.deb
+Size: 1400544
+MD5sum: 2a5f8420e353ca9e41574c8ae05d0b93
+SHA1: 7a77883cacd418e1e4aa881410dfd7b7dcc1c17b
+SHA256: 7e3019d4e35c01462b05484a13deafaa818ca8b6b8dfc909a8c6e79416151250
+Section: Development
+Priority: required
+Description: command-line history management
+Name: readline
 
