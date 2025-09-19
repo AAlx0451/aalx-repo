@@ -128,6 +128,22 @@ Priority: important
 Description: arcane macro processing engine
 Name: m4 Processor
 
+Package: ncdu
+Version: 1.22-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: ncurses
+Filename: ./debs/ncdu-1.22-1-iphoneos-arm.deb
+Size: 91536
+MD5sum: 748b3a14a5e1856b2c70710719b060ed
+SHA1: 576418fc72054ebbec5df53c3f9452e1e79be6e4
+SHA256: 2ba827f92218368e65026a4e6689b97d77ef593bd2df37f4c83f8e49d7a839c4
+Section: System
+Homepage: https://dev.yorhel.nl/ncdu
+Description: disk usage analyzer
+Author: Yorik Tews
+Name: NCurses Disk Usage
+
 Package: perl
 Version: 5.42.0-1
 Architecture: iphoneos-arm
