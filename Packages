@@ -81,20 +81,20 @@ Description: This package provides an open source iconv() implementation
 Name: libiconv
 
 Package: libtool
-Version: 2.5.4-1
+Version: 2.5.4-2
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Installed-Size: 2311
 Conflicts: com.deltaman.libtool
 Replaces: com.deltaman.libtool
 Provides: com.deltaman.libtool
-Filename: ./debs/libtool-2.5.4-1-iphoneos-arm.deb
-Size: 760004
-MD5sum: 6feeb7275fb29af0aca8d8247b8e2240
-SHA1: 08acb99a0b810614d5964d1f80afe3b3caa7e32d
-SHA256: 4679b17fcfb80e203faae394236cfd494e9b00b732c8a7951e5de0478450d19d
+Filename: ./debs/libtool-2.5.4-2-iphoneos-arm.deb
+Size: 760010
+MD5sum: b01bc80b294c0f50307834d94d671f55
+SHA1: 6169edb74b0d1a8dd9c26bfc6c8dddf02807d85a
+SHA256: da5e574d7c9ebfe14c3b8354106c91b421a63f43b623e3969015c3fc670ce810
 Section: Development
-Description: GNU build system for portable libraries
+Description: GNU build system for portable libraries.
 Tag: purpose::console
 Name: libtool
 
