@@ -85,11 +85,11 @@ Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Installed-Size: 1492
 Depends: dpkg
-Filename: ./debs/readline-8.3-iphoneos-arm.deb
-Size: 1400544
-MD5sum: 2a5f8420e353ca9e41574c8ae05d0b93
-SHA1: 7a77883cacd418e1e4aa881410dfd7b7dcc1c17b
-SHA256: 7e3019d4e35c01462b05484a13deafaa818ca8b6b8dfc909a8c6e79416151250
+Filename: ./debs/readline-8.3-1-iphoneos-arm.deb
+Size: 1521826
+MD5sum: b84d18dd44b01e83888df08ae5dd3321
+SHA1: 4183afdf63224b56e132094055172419c64dc09f
+SHA256: b19c3cac0505578df795fb01766d44845938b9b71c3e0c00842c6cd81b2e3e6b
 Section: Development
 Priority: required
 Description: command-line history management
