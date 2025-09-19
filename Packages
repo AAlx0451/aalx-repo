@@ -66,15 +66,15 @@ Description: dpkg development utilities
 Name: dpkg-dev
 
 Package: libiconv
-Version: 1.18-1
+Version: 1.18-2
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Installed-Size: 1492
-Filename: ./debs/libiconv-1.18-iphoneos-arm.deb
-Size: 1626122
-MD5sum: b0703852604210c1009f8323d49e1c57
-SHA1: 3ab2d4a607b775b776114480847b71533c428f58
-SHA256: 04095262c560ac33de2ea7f1094f545480d2536e413cb697858a1bf2e72dbb06
+Filename: ./debs/libiconv-1.18-2-iphoneos-arm.deb
+Size: 1601620
+MD5sum: 1b26f85922b8c5b59ff45a31fcc68518
+SHA1: bf8c1d7159de2a2dcc766f1eabb81cfb015dbd30
+SHA256: fed3276810f96ac12515f688e1de063c052e3c29067b91e0e841c7d1d7273ec1
 Section: Development
 Priority: optional
 Description: This package provides an open source iconv() implementation
@@ -99,15 +99,15 @@ Tag: purpose::console
 Name: libtool
 
 Package: m4
-Version: 1.4.20-1
+Version: 1.4.20-2
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Installed-Size: 433
-Filename: ./debs/m4-1.4.20-1-iphoneos-arm.deb
-Size: 633934
-MD5sum: 2464b7610ddea9f07597f7e654a975e5
-SHA1: 4a18de0769c94c428fdd55c7144f83711f7e28e8
-SHA256: 5951ee9cacd782d04ffd5395a648a0a013401eda2ef221d4696a313028f972f1
+Filename: ./debs/m4-1.4.20-2-iphoneos-arm.deb
+Size: 1394092
+MD5sum: ae1405819c2931f5194d4ce10bb13a13
+SHA1: 0a9b5b7f106ce6d85a6781f019dfc9965759542a
+SHA256: b0c4a681596c278740ea3dc6b2c87db498cb52196a31b5e8ea42b64e760e4623
 Section: Scripting
 Priority: important
 Description: arcane macro processing engine
