@@ -33,16 +33,16 @@ Description: automatically generate verbose makefiles
 Name: Automake
 
 Package: bash
-Version: 5.3-1
+Version: 5.3-2
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Installed-Size: 592
 Depends: grep, ncurses, readline (>= 8.3-1), sed
-Filename: ./debs/bash-5.3-iphoneos-arm.deb
-Size: 4279452
-MD5sum: 76bf25103e1f6050b8d9fd54526b07a6
-SHA1: 52d0a3882fd7d2d1b0a3b58f460a438edae2450d
-SHA256: 7248ebaacee3616b416e796f39668574d6a01dd8d54f65e53ee4ba44f8650bfd
+Filename: ./debs/bash-5.3-2-iphoneos-arm.deb
+Size: 6070888
+MD5sum: 1b3a5975e6452a9940f3500549606815
+SHA1: 5edf348ed78d4f63e2d9685e5d384a3908aa787e
+SHA256: a27000f583c291268844b8fcefd7ebf1b82de2d72d7b62ddd112eea03c2d18a2
 Section: Terminal_Support
 Priority: required
 Homepage: http://www.gnu.org/software/bash/
@@ -64,6 +64,39 @@ Section: Development
 Priority: optional
 Description: dpkg development utilities
 Name: dpkg-dev
+
+Package: libiconv
+Version: 1.18-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 1492
+Filename: ./debs/libiconv-1.18-iphoneos-arm.deb
+Size: 1626122
+MD5sum: b0703852604210c1009f8323d49e1c57
+SHA1: 3ab2d4a607b775b776114480847b71533c428f58
+SHA256: 04095262c560ac33de2ea7f1094f545480d2536e413cb697858a1bf2e72dbb06
+Section: Development
+Priority: optional
+Description: This package provides an open source iconv() implementation
+Name: libiconv
+
+Package: libtool
+Version: 2.5.4-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 2311
+Conflicts: com.deltaman.libtool
+Replaces: com.deltaman.libtool
+Provides: com.deltaman.libtool
+Filename: ./debs/libtool-2.5.4-1-iphoneos-arm.deb
+Size: 760004
+MD5sum: 6feeb7275fb29af0aca8d8247b8e2240
+SHA1: 08acb99a0b810614d5964d1f80afe3b3caa7e32d
+SHA256: 4679b17fcfb80e203faae394236cfd494e9b00b732c8a7951e5de0478450d19d
+Section: Development
+Description: GNU build system for portable libraries
+Tag: purpose::console
+Name: libtool
 
 Package: m4
 Version: 1.4.19-1
