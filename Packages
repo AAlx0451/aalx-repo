@@ -128,6 +128,21 @@ Priority: important
 Description: arcane macro processing engine
 Name: m4 Processor
 
+Package: make
+Version: 4.4.1-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 1023
+Filename: ./debs/make-4.4.1-1-iphoneos-arm.deb
+Size: 891784
+MD5sum: 38673bb0ac0895656cb45f2dc9b725bb
+SHA1: f53eaf6c00f46f6ef16151fdd65a2ca7404803d5
+SHA256: e47c1f7726db60b2aaee1a686d8cbebd3e44135d1ab1f6afb56642ab3063250d
+Section: Development
+Priority: important
+Description: dependency-based build environments
+Name: Make
+
 Package: ncdu
 Version: 1.22-1
 Architecture: iphoneos-arm
