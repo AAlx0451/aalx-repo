@@ -32,6 +32,23 @@ Homepage: http://www.gnu.org/software/automake/
 Description: automatically generate verbose makefiles
 Name: Automake
 
+Package: bash
+Version: 5.3-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 592
+Depends: grep, ncurses, readline (>= 8.3-1), sed
+Filename: ./debs/bash-5.3-iphoneos-arm.deb
+Size: 4279452
+MD5sum: 76bf25103e1f6050b8d9fd54526b07a6
+SHA1: 52d0a3882fd7d2d1b0a3b58f460a438edae2450d
+SHA256: 7248ebaacee3616b416e796f39668574d6a01dd8d54f65e53ee4ba44f8650bfd
+Section: Terminal_Support
+Priority: required
+Homepage: http://www.gnu.org/software/bash/
+Description: the best shell ever written by Brian Fox. Latest version from GNU FTP!
+Name: Bourne-Again SHell
+
 Package: dpkg-dev
 Version: 1-final
 Architecture: iphoneos-arm
