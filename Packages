@@ -99,15 +99,15 @@ Tag: purpose::console
 Name: libtool
 
 Package: m4
-Version: 1.4.19-1
+Version: 1.4.20-1
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Installed-Size: 433
-Filename: ./debs/m4-1.4.19_iphoneos-arm.deb
-Size: 1303958
-MD5sum: 7779d51640fcc2dd9754106f1b5fdc14
-SHA1: af465381e21b3612f2e413d8f5468ca28a8e0d34
-SHA256: b314a36f1c6e03725ade87177e8ef587f6db42ce37657648d9b664c9c7a25ce5
+Filename: ./debs/m4-1.4.20-1-iphoneos-arm.deb
+Size: 633934
+MD5sum: 2464b7610ddea9f07597f7e654a975e5
+SHA1: 4a18de0769c94c428fdd55c7144f83711f7e28e8
+SHA256: 5951ee9cacd782d04ffd5395a648a0a013401eda2ef221d4696a313028f972f1
 Section: Scripting
 Priority: important
 Description: arcane macro processing engine
