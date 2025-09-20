@@ -49,6 +49,19 @@ Homepage: http://www.gnu.org/software/bash/
 Description: the best shell ever written by Brian Fox. Latest version from GNU FTP!
 Name: Bourne-Again SHell
 
+Package: cfframework
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/cfframework-1.0-iphoneos-arm.deb
+Size: 2040082
+MD5sum: ae62b2331dda8c9f4fe14b4e44755cdf
+SHA1: c82eca646c2098ed1598405f77b978a6dffbb7a1
+SHA256: 403091be912ef8d2e4c4902b1cbec1bfda45c15a4754b8903a100db8e9dd1505
+Section: Development
+Description: Provides CoreFoundation.framework
+Name: CoreFoundation Framework
+
 Package: dpkg-dev
 Version: 1-final
 Architecture: iphoneos-arm
@@ -80,6 +93,23 @@ Priority: optional
 Homepage: http://gmplib.org/
 Description: (Big) Arithmetic Library
 Name: GNU Multiple Precision
+
+Package: gnutls
+Version: 3.8.10-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 1604
+Depends: gcrypt, gettext, readline, gmp, nettle, cfframework, sframework
+Filename: ./debs/gnutls-3.8.10-1-iphoneos-arm.deb
+Size: 12647510
+MD5sum: b691a94b0422c515fe357c94a960deae
+SHA1: 0507dbacfd2b868053916ca5649d49d324071918
+SHA256: 553a88e3879c1572538a329aeffcd59518557e9a9d00d3e90037345fac2de5b7
+Section: Security
+Priority: optional
+Homepage: http://www.gnu.org/software/gnutls/
+Description: free sofware alternative to OpenSSL
+Name: GnuTLS
 
 Package: libiconv
 Version: 1.18-2
@@ -238,4 +268,18 @@ Section: Development
 Priority: required
 Description: command-line history management
 Name: readline
+
+Package: sframework
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: cfframework
+Filename: ./debs/sframework-1.0-iphoneos-arm.deb
+Size: 376472
+MD5sum: aec67f9ba4e98cf6e18fed04fbd2b134
+SHA1: 633d5f0c0e4d196e096083c981fe5e41dbbb9d3b
+SHA256: d947fdc77feb9634b161447bce17b1a7dad68348a00461dae4b251a6863b5d6c
+Section: Development
+Description: Provides Security.framework
+Name: Security Framework
 
