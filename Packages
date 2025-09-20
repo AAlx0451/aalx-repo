@@ -65,6 +65,22 @@ Priority: optional
 Description: dpkg development utilities
 Name: dpkg-dev
 
+Package: gmp
+Version: 6.3.0-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 552
+Filename: ./debs/gmp-6.3.0-1-iphoneos-arm.deb
+Size: 1060476
+MD5sum: e7ab6c8131cc8e4d01e7ee96c026b200
+SHA1: 158ef539209c6ec8b44130f1566244a4f69145ce
+SHA256: fb4c22c3d7f6720fb1c3d2148b4e9a7d518f47c56b4bcf402a72a86d204fec38
+Section: Development
+Priority: optional
+Homepage: http://gmplib.org/
+Description: (Big) Arithmetic Library
+Name: GNU Multiple Precision
+
 Package: libiconv
 Version: 1.18-2
 Architecture: iphoneos-arm
@@ -159,6 +175,21 @@ Description: disk usage analyzer
 Author: Yorik Tews
 Name: NCurses Disk Usage
 
+Package: nettle
+Version: 3.10.2
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: gmp
+Filename: ./debs/nettle-3.10.2-1-iphoneos-arm.deb
+Size: 2011502
+MD5sum: a2d682a4483e85ae12fe3519e4eb379e
+SHA1: 84604341f14d1f2782f4a4d45caefd93895b127a
+SHA256: 5dfb52835d0ce5d53470f179c65e8aff33be2e6ba8dfbb55e1d29d6062cca20f
+Section: Development
+Priority: optional
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Description: low-level cryptographic library
+
 Package: perl
 Version: 5.42.0-1
 Architecture: iphoneos-arm
@@ -174,6 +205,23 @@ Section: Scripting
 Priority: optional
 Description: awesome combination of sed and awk
 Name: Perl
+
+Package: pkg-config
+Version: 0.29.2-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 276
+Depends: glib
+Filename: ./debs/pkg-config-0.29.2-iphoneos-arm.deb
+Size: 74668
+MD5sum: 09198c5528c0017f1319a4ca9611d79d
+SHA1: ac1e2d42498f3f496eba9d44534da2bb985dbfc6
+SHA256: 4a3f66e4ffc15f96837c36d17cfc5ec85cb35263e4b8922a4932bf43929a23f0
+Section: Development
+Priority: optional
+Homepage: http://pkg-config.freedesktop.org/
+Description: allows tight coupling and sloppy PATHs
+Name: Package Config
 
 Package: readline
 Version: 8.3-1
