@@ -111,6 +111,21 @@ Homepage: http://www.gnu.org/software/gnutls/
 Description: free sofware alternative to OpenSSL
 Name: GnuTLS
 
+Package: jq
+Version: 1.8.1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/jq-1.8.1-iphoneos-arm.deb
+Size: 2006900
+MD5sum: 14309da5669734811dac037eca1aa00b
+SHA1: 0ae761e9d66b9ec68e45b533a6e2d6efd796fd35
+SHA256: c70763f99311b6150583f7734ffbefe7539700012e338d47a786d6f46a3fe123
+Section: Utilities
+Homepage: https://jqlang.github.io/jq/
+Description: A lightweight and flexible command-line JSON processor
+Author: Stephen Dolan
+Name: jq (JSON Processor)
+
 Package: libiconv
 Version: 1.18-2
 Architecture: iphoneos-arm
