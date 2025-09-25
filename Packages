@@ -204,6 +204,20 @@ Priority: important
 Description: dependency-based build environments
 Name: Make
 
+Package: mc
+Version: 4.8.13-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: slang, glib, ncurses
+Filename: ./debs/mc-4.8.13-1-iphoneos-arm.deb
+Size: 3138600
+MD5sum: 5ed2d4aeaa71ec3ef064b57e0c3924ca
+SHA1: 6b1e3bfa47968754f013cfbf3b16439be95ab3ba
+SHA256: 53043dd46ed4a010dc0f2ecdbbe486788f681e7fa63a6fabc1d79b53d2de4d91
+Section: Utilities
+Description: versatile visual file manager for Unix-like systems.
+Name: Midnight Commander
+
 Package: mpc
 Version: 1.3.1-1
 Architecture: iphoneos-arm
@@ -313,6 +327,22 @@ Priority: required
 Description: command-line history management
 Name: readline
 
+Package: sed
+Version: 4.8-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 180
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/sed-4.8-1-iphoneos-arm.deb
+Size: 441730
+MD5sum: b169f78a77d03be54e1f836e9a2eccbe
+SHA1: 0d5780fee76f23dae58dc36543567859f51b88a8
+SHA256: e51c2a0c89973290f66aad26bd0ad2a3aa1f2c3c04d8fe0cfe378ea0deeabe75
+Section: Utilities
+Priority: important
+Homepage: http://www.gnu.org/software/sed/
+Description: edits streams of text using patterns
+
 Package: sframework
 Version: 1.0
 Architecture: iphoneos-arm
@@ -326,4 +356,35 @@ SHA256: d947fdc77feb9634b161447bce17b1a7dad68348a00461dae4b251a6863b5d6c
 Section: Development
 Description: Provides Security.framework
 Name: Security Framework
+
+Package: slang
+Version: 2.3.3-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <your@email.com>
+Depends: ncurses
+Filename: ./debs/slang-2.3.3-1-iphoneos-arm.deb
+Size: 3318404
+MD5sum: 8ba0776ad57aee6bbfb49fdf303f636e
+SHA1: e2e9a16a5d8b703e95ced2fdc8e8865c043c0688
+SHA256: 634a771254b61ee40bc5cb7ec6615b96524b535155126daf8b7af878d63fe3a0
+Section: Utilities
+Description: powerful scripting language
+Name: S-Lang
+
+Package: zsh
+Version: 5.9-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: ncurses, readline
+Conflicts: bash
+Replaces: bash
+Provides: bash
+Filename: ./debs/zsh-5.9-1-iphoneos-arm.deb
+Size: 6964236
+MD5sum: 0313c4743fc6d918158ac2403353f1c8
+SHA1: b91ba4ee30fee3950d2ae7fca64805ac1f03153a
+SHA256: e20de4877121bad405e27fa43ef8b64cb4d582efad8aed86da9257788e632678
+Section: Terminal_Support
+Description: Zsh is a powerful shell with scripting language, interactive command-line editing, and many other features.
+Name: Z Shell
 
