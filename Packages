@@ -371,6 +371,27 @@ Section: Utilities
 Description: powerful scripting language
 Name: S-Lang
 
+Package: swapon
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: bash | zsh
+Filename: ./debs/swapon-1.0-1-iphoneos-arm.deb
+Size: 1406
+MD5sum: 34166ad71d33ff10753eb5a09b4d4413
+SHA1: 4afc83d016713cc0a4f218eee1e23558e1296358
+SHA256: 9f545b6896e6e08e9470b2dc189935da9faf599b548fce3b0186f98080668ed6
+Section: Utilities
+Description: ios swap implementation
+ Requires a Camera Connection Kit and a supported low-power USB device or SD
+ .
+ Usage:
+ 1. Connect your USB drive. It should be mounted at /var/mnt/mount1.
+ 2. Run 'swapon' from the terminal.
+ .
+ WARNING: Do NOT remove the USB drive while swap is active. To safely disable swap, reboot or run 'ldrestart'.
+Name: Swapfile
+
 Package: zsh
 Version: 5.9-1
 Architecture: iphoneos-arm
