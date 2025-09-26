@@ -393,18 +393,15 @@ Description: ios swap implementation
 Name: Swapfile
 
 Package: zsh
-Version: 5.9-1
+Version: 5.9-2
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Depends: ncurses, readline
-Conflicts: bash
-Replaces: bash
-Provides: bash
-Filename: ./debs/zsh-5.9-1-iphoneos-arm.deb
-Size: 6964236
-MD5sum: 0313c4743fc6d918158ac2403353f1c8
-SHA1: b91ba4ee30fee3950d2ae7fca64805ac1f03153a
-SHA256: e20de4877121bad405e27fa43ef8b64cb4d582efad8aed86da9257788e632678
+Filename: ./debs/zsh-5.9-2-iphoneos-arm.deb
+Size: 4636148
+MD5sum: 8e785a5e610b3c1a14773b2e5d3b285a
+SHA1: 595ae2b9096ef01757c92790ef939893904a28e0
+SHA256: 5f1ef94eb4b15b19edabd3948606fd639cbb6e27428000565fbf81d558e369b4
 Section: Terminal_Support
 Description: Zsh is a powerful shell with scripting language, interactive command-line editing, and many other features.
 Name: Z Shell
