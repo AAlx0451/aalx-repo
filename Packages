@@ -109,6 +109,25 @@ Priority: optional
 Description: dpkg development utilities
 Name: dpkg-dev
 
+Package: gcc
+Version: 4.2.1-5636-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 95884
+Depends: csu, odcctools
+Conflicts: iphone-gcc, libgcc
+Replaces: iphone-gcc, libgcc
+Provides: iphone-gcc, libgcc
+Filename: ./debs/gcc-4.2.1-5636-1-iphoneos-arm.deb
+Size: 47024604
+MD5sum: 9794ec4d18e8f3ad7810b1553c784a15
+SHA1: 27fc531b2c59b834add04c7f5f0a09d6b7d28ee4
+SHA256: 601789c9a8d188ab0a393e558f185c4dee085c4717b03b045353e324797b53f2
+Section: Development
+Priority: optional
+Description: GNU C compiler
+Name: GCC
+
 Package: gmp
 Version: 6.3.0-1
 Architecture: iphoneos-arm
