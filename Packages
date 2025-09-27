@@ -49,6 +49,21 @@ Homepage: http://www.gnu.org/software/bash/
 Description: the best shell ever written by Brian Fox. Latest version from GNU FTP!
 Name: Bourne-Again SHell
 
+Package: c-ares
+Version: 1.34.5-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/c-ares-1.34.5-1-iphoneos-arm.deb
+Size: 2098544
+MD5sum: 6e3c84dfeeba06a48ff6b18742197f1c
+SHA1: e635c87fdfe48db203fd83af1b9357f65ec44fbf
+SHA256: 584d050fb9a6f6dbe8e9c49ad9ab92a7ec80c41cca48638d175aded5a816931c
+Section: Libraries
+Homepage: https://c-ares.org/
+Description: C library for asynchronous DNS name resolving
+Author: The c-ares project authors
+Name: c-ares
+
 Package: cfframework
 Version: 1.0
 Architecture: iphoneos-arm
@@ -61,6 +76,22 @@ SHA256: 403091be912ef8d2e4c4902b1cbec1bfda45c15a4754b8903a100db8e9dd1505
 Section: Development
 Description: Provides CoreFoundation.framework
 Name: CoreFoundation Framework
+
+Package: curl
+Version: 8.16.0-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.Ðcom>
+Depends: gnutls, libssh2, nghttp2
+Filename: ./debs/curl-8.16.0-1-iphoneos-arm.deb
+Size: 1601518
+MD5sum: 02220f2f6663ac2c66ad7b829400d0f8
+SHA1: afaf2a46a50ef52c7255f1ede947a702396cb7e8
+SHA256: 2548d53f1f6eee7c9ca42ffc95e9c8d5e2c8a313049925605446df1e74ad5401
+Section: Networking
+Homepage: https://curl.se/
+Description: Command-line tool for transferring data with URLs. Now with HTTP/2 support!
+Author: Daniel Stenberg
+Name: cURL
 
 Package: dpkg-dev
 Version: 1-final
@@ -247,6 +278,22 @@ Homepage: https://www.mpfr.org/
 Description: Multiple-precision floating-point computation library
 Author: The MPFR Team
 
+Package: nano
+Version: 8.6-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 380
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Filename: ./debs/nano-8.6-1-iphoneos-arm.deb
+Size: 560432
+MD5sum: 58cd7980c933d64506e5d273bdee9f4d
+SHA1: da5a8b7d59eb0868c4f2b489ae2ee323a4836af5
+SHA256: 4196a680f41ecab5396330bbe6812a7dc8c2a05064ee12d1f933bb81e0b2b445
+Section: Text_Editors
+Priority: standard
+Description: completely free, modern clone of Pico
+
 Package: ncdu
 Version: 1.22-1
 Architecture: iphoneos-arm
@@ -277,6 +324,25 @@ Section: Development
 Priority: optional
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: low-level cryptographic library
+
+Package: nghttp2
+Version: 1.67.1-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: zlib
+Conflicts: libnghttp2-14
+Replaces: libnghttp2-14
+Provides: libnghttp2-14
+Filename: ./debs/nghttp2-1.67.1-1-iphoneos-arm.deb
+Size: 676112
+MD5sum: b3bdc11ffad15064482a09fe70c80886
+SHA1: 3c2d742d6ae8fc31853fb6bbdd9983e47aa0662d
+SHA256: e5578248650dfd7a9e678bac668080d8d0175674490ddc099de36537e75ad34f
+Section: Development
+Homepage: https://nghttp2.org/
+Description: C library implementing HTTP/2 protocol
+Author: Tatsuhiro Tsujikawa
+Name: nghttp2
 
 Package: perl
 Version: 5.42.0-1
@@ -391,6 +457,39 @@ Description: ios swap implementation
  .
  WARNING: Do NOT remove the USB drive while swap is active. To safely disable swap, reboot or run 'ldrestart'.
 Name: Swapfile
+
+Package: tar
+Version: 1.35-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 548
+Depends: bzip2, gzip, lzma
+Filename: ./debs/tar-1.35-1-iphoneos-arm.deb
+Size: 2429490
+MD5sum: 0ee426652e0e02798a6c48026573e6e1
+SHA1: 0923d4967d50e61dbf17d64966d10b818098af02
+SHA256: 33278063f3a4032af9f257b1125eb4d57078c7a4b30efbeba835f234639b916a
+Section: Archiving
+Priority: required
+Homepage: http://www.gnu.org/software/tar/
+Description: tool for making tape archives.
+Name: Tape Archive
+
+Package: zlib
+Version: 1.3.1-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Provides: libzlib
+Filename: ./debs/zlib-1.3.1-1-iphoneos-arm.deb
+Size: 158416
+MD5sum: 168597712b169bdf8a17ec77785a08f9
+SHA1: 1361a57b7044e21d810aa06451a3d7a5256e81bc
+SHA256: 52625bd3932418ac16c18c4cb3a7ffeeae17a1691b015b5e85b224176b404ac2
+Section: Development
+Homepage: https://zlib.net/
+Description: A massively spiffy yet delicately unobtrusive compression library.
+Author: Jean-loup Gailly and Mark Adler
+Name: Zlib Compression Library
 
 Package: zsh
 Version: 5.9-2
