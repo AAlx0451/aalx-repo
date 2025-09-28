@@ -7,3 +7,11 @@ Architectures: iphoneos-arm
 Components: main
 Description: Freshly compiled tools for legacy iOS 
 devices.
+ 2b01167ebca3359b23caffa5579bb2ca 17768 Packages
+ c92a1b52abe5041e5d08e7f3b2dc9965 5930 Packages.bz2
+SHA1:
+ 5abb49157f5fd7885e5a33bee6ae220565cb0380 5930 Packages
+ 5abb49157f5fd7885e5a33bee6ae220565cb0380 5930 Packages.bz2
+SHA256:
+ ef15ebd314807216cd5375b1b83c286218832567c40a28e584f46f721c5ea7f0 5930 Packages
+ ef15ebd314807216cd5375b1b83c286218832567c40a28e584f46f721c5ea7f0 5930 Packages.bz2
