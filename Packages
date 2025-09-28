@@ -378,6 +378,22 @@ Description: C library implementing HTTP/2 protocol
 Author: Tatsuhiro Tsujikawa
 Name: nghttp2
 
+Package: oksh
+Version: 7.7-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: ncurses
+Filename: ./debs/oksh-7.7-1-iphoneos-arm.deb
+Size: 161496
+MD5sum: 9bd0a09f284c9d8ced2a6b3a19868aac
+SHA1: 4e8f32749af56fa8f06b65742f8a6c5d10c55a18
+SHA256: 4b017758492cdb4bc817fdd69af5f8ccee0f1276c9a433d126d2aab9faf60042
+Section: Terminal_Support
+Homepage: https://github.com/ibara/oksh
+Description: OpenBSD Korn shell, a lightweight and portable sh.
+Author: The OpenBSD Project & Issei Furutani
+Name: OpenBSD Korn Shell
+
 Package: perl
 Version: 5.42.0-1
 Architecture: iphoneos-arm
