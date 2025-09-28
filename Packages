@@ -114,15 +114,15 @@ Version: 4.2.1-5636-1
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Installed-Size: 95884
-Depends: csu, odcctools
-Conflicts: iphone-gcc, libgcc
-Replaces: iphone-gcc, libgcc
-Provides: iphone-gcc, libgcc
+Depends: csu, odcctools, libgcc
+Conflicts: iphone-gcc
+Replaces: iphone-gcc
+Provides: iphone-gcc
 Filename: ./debs/gcc-4.2.1-5636-1-iphoneos-arm.deb
-Size: 47024604
-MD5sum: 9794ec4d18e8f3ad7810b1553c784a15
-SHA1: 27fc531b2c59b834add04c7f5f0a09d6b7d28ee4
-SHA256: 601789c9a8d188ab0a393e558f185c4dee085c4717b03b045353e324797b53f2
+Size: 47004200
+MD5sum: 3f1c2e2eb52b37e4ba21c1192c60751e
+SHA1: a77d802dc4d2bc401b5542b17231c937394acb56
+SHA256: 7940fb9a934f45240a5a18134d0bce37f86594f742123fa8045a9a4c271f38fe
 Section: Development
 Priority: optional
 Description: GNU C compiler
@@ -175,6 +175,21 @@ Homepage: https://jqlang.github.io/jq/
 Description: A lightweight and flexible command-line JSON processor
 Author: Stephen Dolan
 Name: jq (JSON Processor)
+
+Package: libgcc
+Version: 4.2.1-5636-1
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 92
+Filename: ./debs/libgcc-4.2.1-5636-1-iphoneos-arm.deb
+Size: 25406
+MD5sum: 3d3e9d2388170bfd25911b404b6db321
+SHA1: 0a6679327db14cea33245e8a954767a8e0cdff8d
+SHA256: 36887bccfd37b6caae0f1967f7e20ddafefd53318a4e468dae93563302f0aac3
+Section: System
+Priority: required
+Description: core library used by everything
 
 Package: libiconv
 Version: 1.18-2
