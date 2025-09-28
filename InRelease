@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
 Architectures: iphoneos-arm
 Codename: aalx-repo
 Components: main
@@ -19,3 +22,10 @@ SHA256:
  f7ce7aedf17306e345863627a72f788659354f0898fc0fdb5c9a47772f7ea7a9            17768 Packages
  ef15ebd314807216cd5375b1b83c286218832567c40a28e584f46f721c5ea7f0             5930 Packages.bz2
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Linux)
+
+iEYEARECAAYFAmjYyLAACgkQYP5h3SRkepqhuwCgqU4RlO+VRHtietAH1bXo/Dy/
+vCoAoNC6I4M/uIlh/NCInD7BjpNZkRA+
+=3qrv
+-----END PGP SIGNATURE-----
