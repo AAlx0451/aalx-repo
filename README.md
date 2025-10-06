@@ -13,3 +13,5 @@ planned: LLVM/Clang; some useful utilities; swapfile OSS
 implementation (DONE! ILL RELEASE IT SOON); google gemini 
 api chat (DONE! ILL RELEASE IT SOON AFTER UX 
 IMPROVEMENTS!)
+
+UPD(2): I COMPILED LLVM/GCC 2.5. YEEEEEEE
