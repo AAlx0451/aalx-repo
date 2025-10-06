@@ -240,15 +240,15 @@ Tag: purpose::console
 Name: libtool
 
 Package: m4
-Version: 1.4.20-3
+Version: 1.4.20-4
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Installed-Size: 433
-Filename: ./debs/m4-1.4.20-3-iphoneos-arm.deb
-Size: 1394092
-MD5sum: 5f4efdc6e1a6edec82381c26471fd092
-SHA1: 89fdbad1d408b472767ea7beaf3c2cf3153774bf
-SHA256: 51b7fb8721f25452a90c5ff324dd1172bf9cb3d1714ec9d0836a774f0ddc5a3a
+Filename: ./debs/m4-1.4.20-4-iphoneos-arm.deb
+Size: 1274532
+MD5sum: 41aa3fcecbf390e6f81052ab6e47e3a7
+SHA1: 92d1ea16a4159b84b01beca2b7b491adebdaa7ef
+SHA256: 0c04016aad75593582621cb1e2db82ea0c40031e03b20dc7d7799f44d7c9e399
 Section: Scripting
 Priority: important
 Description: arcane macro processing engine
@@ -486,6 +486,21 @@ SHA256: 634a771254b61ee40bc5cb7ec6615b96524b535155126daf8b7af878d63fe3a0
 Section: Utilities
 Description: powerful scripting language
 Name: S-Lang
+
+Package: sudo
+Version: 1.9.17p2-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx)
+Installed-Size: 748
+Filename: ./debs/sudo-1.9.17p2-1-iphoneos-arm.deb
+Size: 5967354
+MD5sum: db01f9a56ad783818eb6f9a5f670d7d7
+SHA1: c47ce78d628e8737ce8638b6b2c42770cf9be907
+SHA256: 5d19db122164841c994bc96e7ec723031b76c0fd10ff193a81e6b7f8b459f2b6
+Section: Administration
+Priority: standard
+Description: temporarily assume root priviledges
+Name: sudo
 
 Package: swapon
 Version: 1.0-1
