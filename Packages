@@ -531,15 +531,18 @@ Description: powerful scripting language
 Name: S-Lang
 
 Package: sqlite3
-Version: 3.50.4-1
+Version: 3.50.4-2
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
-Filename: ./debs/sqlite3-3.50.4-1-iphoneos-arm.deb
-Size: 4127548
-MD5sum: 9e7400062ccf1dd956287fb102f8f3a9
-SHA1: 6c64e45d3a437ec30e8e9b43c387f7391570fbbc
-SHA256: bd064a561430feff81530fdab688a8f234cd20c1f683dd8fd4e011a0f0727f41
-Section: Terminal_Support
+Conflicts: sqlite3-lib
+Replaces: sqlite3-lib
+Provides: sqlite3-lib
+Filename: ./debs/sqlite3-3.50.4-2-iphoneos-arm.deb
+Size: 4127618
+MD5sum: c9516e956d8ed79762373812b22be312
+SHA1: 94454fcb81b359ad433db0ac470fdf6e8e46e3e4
+SHA256: f15b7aafb963c5cbe417e7af21555f8fd185a05ad49a1512612ef9a1eba9f8d9
+Section: Data_Storage
 Priority: standard
 Description: Command line shell for SQLite
 Name: SQLite
@@ -596,6 +599,22 @@ Priority: required
 Homepage: http://www.gnu.org/software/tar/
 Description: tool for making tape archives.
 Name: Tape Archive
+
+Package: vim
+Version: 9.1-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Installed-Size: 20876
+Depends: ncurses, libgcc
+Filename: ./debs/vim-9.1-1-iphoneos-arm.deb
+Size: 10500882
+MD5sum: cb2a1b2485f564031265556933c158fe
+SHA1: f81e3f1a0cc2016176ce549e8d2732f9765788a0
+SHA256: 5bad3de6ae535910b3131a58bb177fbfec67213e9736596132f987717a88118b
+Section: Text_Editors
+Priority: standard
+Description: text editor
+Name: Vi IMproved
 
 Package: wget
 Version: 1.25.0-1

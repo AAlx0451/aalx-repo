@@ -4,28 +4,28 @@ Hash: SHA1
 Architectures: iphoneos-arm
 Codename: aalx-repo
 Components: main
-Date: Fri, 10 Oct 2025 11:26:48 UTC
+Date: Fri, 10 Oct 2025 16:52:34 UTC
 Description: iOS 6 compiled utils
 Label: AAlx
 Origin: AAlx's Repo
 Suite: stable
 Version: 1.2
 MD5Sum:
- afe4437bacfd313c47b5264d9368c95e            20537 Packages
- 2794a3010ea142cc401228208bb73975             6726 Packages.bz2
+ 0d9fdc2792d7562e5e76f03abe1da066            21057 Packages
+ ebb3a595e5cff3dbb491f86ce11a0c4b             6900 Packages.bz2
  d41d8cd98f00b204e9800998ecf8427e                0 Release
 SHA1:
- 2947ea06edbce988c468d38f5ba42750274b1e04            20537 Packages
- e4041223f1670f2667d905da94f9d18e636314f5             6726 Packages.bz2
+ 5e77f1777216f9f66b4f2b06c5a585e7fbfee404            21057 Packages
+ 272bff6c5a260ef7a28e4564afca0e4d83c9d160             6900 Packages.bz2
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Release
 SHA256:
- 8ba37599107e9dce0700b332c0a5539bb1f478bf78bc83c6242a94e07a98a525            20537 Packages
- e00d7d19466342cb9c78be4380090236a090d584d9cd3fabef6909a8d09379ad             6726 Packages.bz2
+ 4106d1aa193f826341d2fe0d958bb9da55d9f82d899243fa660d755f20234eea            21057 Packages
+ 394671c845453bbe5427223d5519086d8755a9b8d5bd1648faf9e6151c9688a0             6900 Packages.bz2
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Release
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.9 (Linux)
 
-iEYEARECAAYFAmjo7XgACgkQYP5h3SRkeprH4wCfft9gRAommGA22iQ6L5bcLmKW
-6/oAoMAFp4tesm8HORz/Q4UcwB5m5/HV
-=ytEE
+iEYEARECAAYFAmjpOdIACgkQYP5h3SRkeprkWwCghMB8+NYXstOASO96h1yaRdmg
+vYMAoNQUg+rRT7wHACcu+LhmoeD0XybQ
+=JDsO
 -----END PGP SIGNATURE-----
