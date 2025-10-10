@@ -427,6 +427,20 @@ Homepage: http://pkg-config.freedesktop.org/
 Description: allows tight coupling and sloppy PATHs
 Name: Package Config
 
+Package: plotutils
+Version: 2.6-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/plitutils-2.6-1-iphoneos-arm.deb
+Size: 1363620
+MD5sum: 7531f8e7a9f6e5292083abcaf2b12477
+SHA1: 8d9a23271e61c66a584c8b0351998e99953ff6c9
+SHA256: 08b1f9659306467d3629fd18a02d12ba3b7a286e112df9632f711004e657c08f
+Section: Utilities
+Priority: standard
+Description: make a function plot
+Name: GNU Plotutils
+
 Package: readline
 Version: 8.3-1
 Architecture: iphoneos-arm
@@ -486,6 +500,20 @@ SHA256: 634a771254b61ee40bc5cb7ec6615b96524b535155126daf8b7af878d63fe3a0
 Section: Utilities
 Description: powerful scripting language
 Name: S-Lang
+
+Package: sqlite3
+Version: 3.50.4-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/sqlite3-3.50.4-1-iphoneos-arm.deb
+Size: 4127548
+MD5sum: 9e7400062ccf1dd956287fb102f8f3a9
+SHA1: 6c64e45d3a437ec30e8e9b43c387f7391570fbbc
+SHA256: bd064a561430feff81530fdab688a8f234cd20c1f683dd8fd4e011a0f0727f41
+Section: Terminal_Support
+Priority: standard
+Description: Command line shell for SQLite
+Name: SQLite
 
 Package: sudo
 Version: 1.9.17p2-1
