@@ -253,6 +253,21 @@ Description: GNU build system for portable libraries.
 Tag: purpose::console
 Name: libtool
 
+Package: lzip
+Version: 1.25-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/lzip-1.25-1-iphoneos-arm.deb
+Size: 130422
+MD5sum: 1cd82627598da8486c3054e2def61e59
+SHA1: 1652f260c517166ef1762accf69cdd8b0c947126
+SHA256: 6f07da1b106c6833d05352ff18111f7430e98a40c8c4da021084b85987533d04
+Section: Archiving
+Priority: optional
+Homepage: http://www.nongnu.org/lzip
+Description: yet another encryption algorithm
+Name: LZip
+
 Package: m4
 Version: 1.4.20-4
 Architecture: iphoneos-arm
