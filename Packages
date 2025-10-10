@@ -597,6 +597,21 @@ Homepage: http://www.gnu.org/software/tar/
 Description: tool for making tape archives.
 Name: Tape Archive
 
+Package: wget
+Version: 1.25.0-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: gettext, pcre2, nettle, gnutls, zlib, libgcc
+Filename: ./debs/wget-1.25.0-1-iphoneos-arm.deb
+Size: 1723460
+MD5sum: 591ecd23874e471f08f248d7603c0ca9
+SHA1: 966786209dae9cf39163fd4079967faa53bb4715
+SHA256: e418a9799a76fe16c1bdfd8c0333a29fc4680fb6e5f880b5e47db2157fd40672
+Section: Networking
+Priority: important
+Description: simple HTTP file transfer client
+
 Package: zlib
 Version: 1.3.1-1
 Architecture: iphoneos-arm
