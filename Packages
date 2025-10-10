@@ -93,6 +93,20 @@ Description: Command-line tool for transferring data with URLs. Now with HTTP/2 
 Author: Daniel Stenberg
 Name: cURL
 
+Package: dash
+Version: 0.13.5-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/dash-0.5.13-1-iphoneos-arm.deb
+Size: 192142
+MD5sum: c6166a688dba69ba6bddad57e8087f05
+SHA1: e5405677861aa1f2fa4c2717da28c12e26a04991
+SHA256: 0225dacfd8422146a8a7ff89fe225f6b51623f2592449802dbe007be4e9b9960
+Section: Terminal_Support
+Priority: standard
+Description: Debian very POSIX shell. To install as system (WARNING: UNSAFE!!!): dashassh
+Name: Debian Almquist shell
+
 Package: dpkg-dev
 Version: 1-final
 Architecture: iphoneos-arm
