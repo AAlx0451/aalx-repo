@@ -15,3 +15,5 @@ api chat (DONE! ILL RELEASE IT SOON AFTER UX
 IMPROVEMENTS!)
 
 UPD(2): I COMPILED LLVM/GCC 2.5. YEEEEEEE
+
+UPD(3): I wanna notice you all that I successfully compiled Clang 3.3. anyway, there's much work – first of all I'm going to compile Clang 4.0.1 and release it. Stay notices
