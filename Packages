@@ -77,6 +77,22 @@ Section: Development
 Description: Provides CoreFoundation.framework
 Name: CoreFoundation Framework
 
+Package: cmake
+Version: 3.4.3-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: cfframework
+Filename: ./debs/cmake-3.4.3-1-iphoneos-arm.deb
+Size: 22981098
+MD5sum: 8d7d3e05fd3bb632bbabd4d3f6405451
+SHA1: 67bd3b3c026faa11290b0875f9c2a9dcd3a4efee
+SHA256: 54f8802a52c84428e8ea6c2ac15e2083cbf4cb9a5cf1e7470dad4d08f9fc9e7a
+Section: Development
+Homepage: https://cmake.org/
+Description: A cross-platform, open-source build system
+Author: Kitware, Inc.
+Name: CMake Build System
+
 Package: curl
 Version: 8.16.0-1
 Architecture: iphoneos-arm
@@ -406,6 +422,21 @@ Homepage: https://nghttp2.org/
 Description: C library implementing HTTP/2 protocol
 Author: Tatsuhiro Tsujikawa
 Name: nghttp2
+
+Package: ninja
+Version: 1.8.2-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/ninja-1.8.2-1-iphoneos-arm.deb
+Size: 77840
+MD5sum: 41a7bb82e70b336d8c01fdc2d98241ca
+SHA1: 62115b97ef3e37fb1abf43a39b53d07b7b041309
+SHA256: 0722d6b7cac60d3fc6de0834f6e160eb4672d6d41c5a7e0b172e4f4b9dc079c0
+Section: Development
+Homepage: https://ninja-build.org/
+Description: A small build system with a focus on speed
+Author: Evan Martin <evan@ninja-build.org>
+Name: Ninja
 
 Package: oksh
 Version: 7.7-1
