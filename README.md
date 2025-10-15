@@ -15,3 +15,5 @@ UPD(2): I COMPILED LLVM/GCC 2.5. YEEEEEEE. UPD: clearly unstable. dont use it pl
 UPD(3): I successfully compiled Clang 3.3. anyway, there's much work – first of all I'm going to compile Clang 4.0.1 and release it. Stay noticed 
 
 Anyway, if you want to help me and/or you don't have time to wait me to compile it, I released CMake+Ninja. you can use Cydia's GCC to compile LLVM/Clang 3.3 
+
+UPD(4): Clang 3.9.1 released. LLVM checks passed, but can't guarantee stability rn. 
