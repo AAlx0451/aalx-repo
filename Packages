@@ -77,6 +77,28 @@ Section: Development
 Description: Provides CoreFoundation.framework
 Name: CoreFoundation Framework
 
+Package: clang
+Version: 3.9.1-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: org.coolstar.cctools
+Conflicts: gcc, iphone-gcc, org.coolstar.llvm-clang
+Replaces: gcc, iphone-gcc, org.coolstar.llvm-clang
+Provides: gcc, iphone-gcc, org.coolstar.llvm-clang
+Filename: ./debs/clang-3.9.1-1-iphoneos-arm.deb
+Size: 87762980
+MD5sum: 7a1dea22462839ad560fb1bcc8875acd
+SHA1: 03b91de6bc6fed01fdd37693ae01c515549db5e6
+SHA256: cf6c03a01f880cc14d26fd369c37dab6c106766bb2f57990eb69d32703fb97fb
+Section: Development
+Homepage: https://llvm.org/
+Description: C/C++ compiler.
+ WARNING(!!!): ARMv7 ONLY. EXTERNAL LIBRARIES SUPPORT CANNOT BE CURRENTLY GUARANTEED.
+ WARNING(!!!): YOU MAY NEED TO USE YOUR OS SDK DUE TO ARMv6 TOOLCHAIN
+ WARNING(!!!): DESPITE IT WAS CHECKED, STABILITY CANNOT BE GUARANTEED ANYWAY
+ WARNING(!!!): FOR ARMv6 DEVICES PLEASE USE iPhone-GCC
+Name: LLVM/Clang
+
 Package: cmake
 Version: 3.4.3-1
 Architecture: iphoneos-arm
@@ -138,25 +160,6 @@ Section: Development
 Priority: optional
 Description: dpkg development utilities
 Name: dpkg-dev
-
-Package: gcc
-Version: 4.2.1-5636-2
-Architecture: iphoneos-arm
-Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
-Installed-Size: 95884
-Depends: csu, odcctools, libgcc
-Conflicts: iphone-gcc
-Replaces: iphone-gcc
-Provides: iphone-gcc
-Filename: ./debs/gcc-4.2.1-5636-2-iphoneos-arm.deb
-Size: 47004342
-MD5sum: 51adace17fb871f41774eaefa0a648a2
-SHA1: eed53bc19d1a0b18280ff6cb740f06df90294a3e
-SHA256: fb642a5872bf3f785510eb19dc434dd75602707d90cacbe479adb68146b06f64
-Section: Development
-Priority: optional
-Description: GNU C compiler
-Name: GCC
 
 Package: gmp
 Version: 6.3.0-1
