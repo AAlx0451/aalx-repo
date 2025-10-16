@@ -100,15 +100,15 @@ Description: C/C++ compiler.
 Name: LLVM/Clang
 
 Package: cmake
-Version: 3.4.3-1
+Version: 3.24.4-1
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Depends: cfframework
-Filename: ./debs/cmake-3.4.3-1-iphoneos-arm.deb
-Size: 22981098
-MD5sum: 8d7d3e05fd3bb632bbabd4d3f6405451
-SHA1: 67bd3b3c026faa11290b0875f9c2a9dcd3a4efee
-SHA256: 54f8802a52c84428e8ea6c2ac15e2083cbf4cb9a5cf1e7470dad4d08f9fc9e7a
+Filename: ./debs/cmake-3.24.4-1-iphoneos-arm.deb
+Size: 20361960
+MD5sum: 7fe9ce69fa8fdf421c8689c26e40c342
+SHA1: 62d980c2b4d0d792a638527d49c206f5fb627196
+SHA256: fdea554127a774024493399a78ba8ced0fb8f2e76860e40681cc5ad3eb41e066
 Section: Development
 Homepage: https://cmake.org/
 Description: A cross-platform, open-source build system
@@ -519,6 +519,21 @@ Section: Development
 Priority: required
 Description: command-line history management
 Name: readline
+
+Package: screen
+Version: 4.9.1-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: ncurses
+Filename: ./debs/screen-4.9.1-1-iphoneos-arm.deb
+Size: 523514
+MD5sum: 19aa126bdc413ebf31e3abe45df1133c
+SHA1: db73dbed2ed9321e612d58b87b6a618372189bb9
+SHA256: 20d4598d6dea474ef13d05bc10e6e6c864a4241187650595a9fc5efa19e15b8a
+Section: Terminal_Support
+Priority: important
+Description: multiplexes a terminal into many
+Name: Screen
 
 Package: sed
 Version: 4.8-1
