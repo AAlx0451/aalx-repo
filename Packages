@@ -1,3 +1,36 @@
+Package: apr
+Version: 1.7.6-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: apr-lib
+Provides: apr-lib
+Filename: ./debs/apr-1.7.6-1-iphoneos-arm.deb
+Size: 654262
+MD5sum: 9e9991485236b7dfceefe05c46887b11
+SHA1: 4ce813ed30d516f27ea3bca095b75759fa2c72af
+SHA256: 66f9adc3409a22747b6322c213ee005923f83c74abce3ef934907963f678cfd6
+Section: Development
+Priority: optional
+Homepage: http://apr.apache.org/
+Description: platform abstraction library from Apache
+Name: APR
+
+Package: apr-util
+Version: 1.6.3-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: apr, berkeleydb, expat, sqlite3
+Filename: ./debs/apr-util-1.6.3-iphoneos-arm.deb
+Size: 1161804
+MD5sum: b05b659ad728c4f1ec1489b51fe8110d
+SHA1: 8780b92071e63729b73f6d62e19170e3184a582d
+SHA256: dbe678b6eda03942d5f556e8ab0eb6e57a2d0b68a68b4d4d27997ec354f1eeb0
+Section: Development
+Priority: standard
+Description: data structures and utilities for Apache APR
+Name: APR-util
+
 Package: autoconf
 Version: 2.72-1
 Architecture: iphoneos-arm
@@ -161,6 +194,22 @@ Priority: optional
 Description: dpkg development utilities
 Name: dpkg-dev
 
+Package: flex
+Version: 2.6.4-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: m4
+Filename: ./debs/flex-2.6.4-1-iphoneos-arm.deb
+Size: 259096
+MD5sum: a8aaec9a478afd0f5900898a3ebd2913
+SHA1: e519c083fc373eae2ad21bb005edebd04c1724e3
+SHA256: ab9b5075776574e990a7dc2cf88326cb7fd8f39d756a29ce6fb0fa5030ca222c
+Section: Development
+Priority: standard
+Description: GNU lexer derived from Lex
+Name: Flex
+
 Package: gmp
 Version: 6.3.0-1
 Architecture: iphoneos-arm
@@ -253,6 +302,23 @@ Section: Development
 Priority: optional
 Description: This package provides an open source iconv() implementation. No dynamic lybs
 Name: libiconv-static
+
+Package: libressl
+Version: 4.1.1-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Conflicts: openssl, libssl0.9.8, libssl1.0, libssl1.1.1
+Replaces: openssl, libssl0.9.8, libssl1.0, libssl1.1.1
+Provides: openssl, libssl0.9.8, libssl1.0, libssl1.1.1
+Filename: ./debs/libressl-4.1.1-1-iphoneos-arm.deb
+Size: 8415030
+MD5sum: 5ed781a397762ac797bd246c83c3f9bc
+SHA1: d6a372021f6a61958133c8d19e94d40ad9058124
+SHA256: 8a6c53b5a14dffda5b0e5ecb524011cacbec032372ce4f23d70d7ddae7b700f6
+Section: Security
+Priority: standard
+Description: Modern SSL library. OpenSSL libraries 0.9.x/1.x included for compatibility
+Name: LibreSSL
 
 Package: libtool
 Version: 2.5.4-2
