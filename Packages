@@ -82,6 +82,20 @@ Homepage: http://www.gnu.org/software/bash/
 Description: the best shell ever written by Brian Fox. Latest version from GNU FTP!
 Name: Bourne-Again SHell
 
+Package: bzip2
+Version: 1.1.0-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/bzip2-1.1.0-1-iphoneos-arm.deb
+Size: 119880
+MD5sum: 16949b729932b9b14f48773556f1f339
+SHA1: 045860b7afec5fcf94fc1ba6af31216774f466f6
+SHA256: a94368b419272e1cdb0a475f1d9711cc7d16d9bc5c84dc74ad25e5413d5ffb68
+Section: Archiving
+Priority: important
+Homepage: http://www.bzip.org/
+Description: compression that's slightly better than gzip
+
 Package: c-ares
 Version: 1.34.5-1
 Architecture: iphoneos-arm
@@ -194,6 +208,39 @@ Priority: optional
 Description: dpkg development utilities
 Name: dpkg-dev
 
+Package: expat
+Version: 2.7.3-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/expat-2.7.3-1-iphoneos-arm.deb
+Size: 205994
+MD5sum: cadf8b1d11d5e268a3cdebe5370ed8e5
+SHA1: 596ced54d0afe908dbf85421507aa8cb0db95f21
+SHA256: 1417bbb13c4a18826529815f05c8d3a4079df43ba607b6f64a5672cd7afa8808
+Section: Development
+Priority: standard
+Description: C99 XML parser lib
+Name: Expat
+
+Package: file
+Version: 5.46-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: bzip2, lzma, zlib
+Filename: ./debs/file-5.46-1-iphoneos-arm.deb
+Size: 557930
+MD5sum: a7800997272a69b7ddf74efc33c3664d
+SHA1: abb87bca7a54d0a3cf66cd5b7e4dff69a481249a
+SHA256: 4d41db64df90eef32179193876690d271285a734bd821dd43df85191bc2f3d76
+Section: Utilities
+Priority: important
+Homepage: http://www.darwinsys.com/file/
+Description: utility to determine file type
+ The file command is a standard Unix program for recognizing the type of data
+ contained in a computer file. It uses the "magic" library to read file
+ headers and perform other tests to determine the file type.
+Name: file
+
 Package: flex
 Version: 2.6.4-1
 Architecture: iphoneos-arm
@@ -265,10 +312,10 @@ Essential: yes
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Installed-Size: 92
 Filename: ./debs/libgcc-4.2.1-5636-1-iphoneos-arm.deb
-Size: 25406
-MD5sum: 3d3e9d2388170bfd25911b404b6db321
-SHA1: 0a6679327db14cea33245e8a954767a8e0cdff8d
-SHA256: 36887bccfd37b6caae0f1967f7e20ddafefd53318a4e468dae93563302f0aac3
+Size: 11880
+MD5sum: be84518120df7153910c64664c46a73b
+SHA1: 66e1903887e1ce2144b8bbe69cad508429621e2b
+SHA256: 4dee5cc5d42ba92b2553f74062bcfb3f5f7531f9969a0c2da7c73bf7c98a0e76
 Section: System
 Priority: required
 Description: core library used by everything
@@ -617,6 +664,22 @@ Priority: important
 Homepage: http://www.gnu.org/software/sed/
 Description: edits streams of text using patterns
 
+Package: serf
+Version: 1.4.0-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: apr, apr-util, libressl, zlib
+Filename: ./debs/serf-1.4.0-1-iphoneos-arm.deb
+Size: 242110
+MD5sum: fc9f03ad5357e4613e5415c4d2217489
+SHA1: b6746b022e8a60cf49a7054eb69e0381b5bdea70
+SHA256: 8914e7cb98826e07ec397a39cd76ad34a1246ac03b3f46cbaee5bcbad7e7f30d
+Section: Development
+Priority: optional
+Homepage: https://serf.apache.org/
+Description: high-performance asynchronous HTTP client library
+Name: Serf
+
 Package: sframework
 Version: 1.0
 Architecture: iphoneos-arm
@@ -646,21 +709,36 @@ Description: powerful scripting language
 Name: S-Lang
 
 Package: sqlite3
-Version: 3.50.4-2
+Version: 3.51.0-1
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Conflicts: sqlite3-lib
 Replaces: sqlite3-lib
 Provides: sqlite3-lib
-Filename: ./debs/sqlite3-3.50.4-2-iphoneos-arm.deb
-Size: 4127618
-MD5sum: c9516e956d8ed79762373812b22be312
-SHA1: 94454fcb81b359ad433db0ac470fdf6e8e46e3e4
-SHA256: f15b7aafb963c5cbe417e7af21555f8fd185a05ad49a1512612ef9a1eba9f8d9
+Filename: ./debs/sqlite-3.51.0-1-iphoneos-arm.deb
+Size: 2563126
+MD5sum: 3641c8339e624fe288075e9bca423601
+SHA1: 2e0b1214def8ce3d7b589b686a7085239cf605db
+SHA256: f4fef506a19377522fcf447e4ae53ba2d0b95dafa385cd2395b6f0f5413a1844
 Section: Data_Storage
 Priority: standard
 Description: Command line shell for SQLite
 Name: SQLite
+
+Package: subversion
+Version: 1.14.5-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: apr, apr-util, expat, neon, serf, zlib, libressl, sqlite3, lz4, gettext, file
+Filename: ./debs/subversion-1.14.5-1-iphoneos-arm.deb
+Size: 9891186
+MD5sum: 95bd60626bd90542d2a2f53c81107cda
+SHA1: 9f60f623d0adcd15e171e0b55e151ac10d9bed6e
+SHA256: 8ec63c21c58f1ee9beb38b2716660d220a024362a488fa8b989c6ee3ac7c4224
+Section: Data_Storage
+Priority: standard
+Description: modern version control system
+Name: Subversion
 
 Package: sudo
 Version: 1.9.17p2-1
