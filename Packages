@@ -82,6 +82,20 @@ Homepage: http://www.gnu.org/software/bash/
 Description: the best shell ever written by Brian Fox. Latest version from GNU FTP!
 Name: Bourne-Again SHell
 
+Package: bzip2-dev
+Version: 1.1.0-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/bzip2-dev-1.1.0-1-iphoneos-arm.deb
+Size: 42436
+MD5sum: f18845b9a6a1cc6f97d299ca62e772f1
+SHA1: b31e5ef97156c4833ed169aa98e86ef4cb5f7a38
+SHA256: f8e5ca5fb72fe89c5d3e05ad584a5cabc2b62f2fb1854bd24ca40b9d5cb09706
+Section: Development
+Priority: optional
+Homepage: http://www.bzip.org/
+Description: bzip2`s libs and headers
+
 Package: c-ares
 Version: 1.34.5-1
 Architecture: iphoneos-arm
