@@ -162,6 +162,20 @@ Description: A cross-platform, open-source build system
 Author: Kitware, Inc.
 Name: CMake Build System
 
+Package: csu
+Version: 224-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/csu-224-1-iphoneos-arm.deb
+Size: 6202
+MD5sum: 7f6513e456300642bb0d546c89bdaeba
+SHA1: f67e3aa759a5a2b87798dbdc442b47da16249424
+SHA256: e75971ce0cd95f65fc47950495c0dcd8499762e8d70cca837376b4af8aeafeff
+Section: Development
+Priority: optional
+Description: library loading and support stubs. armv7 support included
+Name: Csu
+
 Package: curl
 Version: 8.16.0-1
 Architecture: iphoneos-arm
@@ -290,6 +304,28 @@ Homepage: http://www.gnu.org/software/gnutls/
 Description: free sofware alternative to OpenSSL
 Name: GnuTLS
 
+Package: headfile
+Version: 6.1
+Architecture: iphoneos-arm
+Maintainer: Alexander <aalx2176@gmail.com>
+Filename: ./debs/headfile-6.1-iphoneos-arm.deb
+Size: 2485154
+MD5sum: ab0676e3d91a1a09cfba202045738df3
+SHA1: 2a127dd6ef993bac88f6b489b9045e18b562f8b8
+SHA256: 375a4dfeb1f9e5d75390ca8352937cf0cccbe1141e71d9cb89fe1d2c421f10f0
+Section: Development
+Priority: optional
+Description: header files and dynamic libraries for gcc/clang to compile the C/C++ source files.
+ This package provides useful headers and basic libraries from iOS 6.1 SDK. No LibC++ or libgcc_s included (see libgcc and clang packages). No C++11 or C++14 headers included (only GCC 4.2.1 C++03 headers. c++/v1 included only in Clang package).
+ Most of libraries and some headers (there are many useful headers which are not included in iPhoneOS SDK. For iOS 6, you can use OSX 10.9 SDK) may not be included. You can add iPhoneOS6.1.sdk contents yourself
+ Actually, most libraries are missing. But this package is a headfiles pack, so good luck with development
+ About libraries – libSystem.B (aka libSystem, libpthread, libdl, libc) and libstdc++ included. For Clang use -stdlib=libstdc++. But it's better to not :D. Use -stdlib=libc++ (which supports up to C++14)
+ And one more thing (c). Why is it so incomplete? The only reason is to be compatible with old headfile package with iOS 4 SDK. Imagine what if my SDK could overwrite your files? Scary, isn't it? You can cp from SDK to /usr/lib. Anyway, header set is probably complete (excluding OSX extensions like crt_externs.h/telnet.h/_types (in sys)/etc)
+ DIFFERENCE BETWEEN MY HEADFILE AND OLD: libraries are armv7/armv7s now (previously armv6/armv7 (sorry, 2G/3G users!)); atomic builtins bugs are fixed now (they are unsupported for armv6 anyway, but now there is no implicit assumption of their presence in libSystem.B which previously broken pthereads in Autotools (AV_CV_ATOMIC_BUILTINS). Clang now uses assembly implementation, so bug is finally fixed); headers are fixed now (by apple), so boolean type fully supported (previously true was defined as (bool)1, which broken EVERYTHING. now as 1); dylibs are smaller now because of using dyld cache (I think so, they are text-based, but binaries work as well); c++ StdLib is now 4.2.1 (previously 4.0.0 (4.0.0 included anyway). (all of them are mostly fixed by apple of course)
+ Notice that headers are located at /usr/local/include (old headfile package's legacy)
+ WARNING (!!!): GCC IS NOT SUPPORTED!! YOU CAN DOWNLOAD THE HEADERS (by unpacking deb), but DO NOT replace dylibs if you use GCC, IT DOES NOT SUPPORTS ARMV7!!!! you can use clang as well
+Name: Software Development Kit
+
 Package: jq
 Version: 1.8.1
 Architecture: iphoneos-arm
@@ -304,6 +340,18 @@ Homepage: https://jqlang.github.io/jq/
 Description: A lightweight and flexible command-line JSON processor
 Author: Stephen Dolan
 Name: jq (JSON Processor)
+
+Package: libedit
+Version: 3.1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/libedit-3.1-iphoneos-arm.deb
+Size: 393058
+MD5sum: 933a35aa4ea10b8e807520145e91f4f1
+SHA1: 1f4b0c6f63c99e84c0d044bd6a8ae435b9225757
+SHA256: 35921f3680905552421441d1ffa6457aa5e1557795e9bd64453697de6eb417e8
+Section: System
+Description: BSD readline implementation
 
 Package: libgcc
 Version: 4.2.1-5636-1
@@ -349,6 +397,19 @@ Section: Development
 Priority: optional
 Description: This package provides an open source iconv() implementation. No dynamic lybs
 Name: libiconv-static
+
+Package: libresolv
+Version: 9
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/libresolv-9-iphoneos-arm.deb
+Size: 277320
+MD5sum: a4df3fdc6697e840487d28da274edad2
+SHA1: 51585dc30c798a1e786a9e562cf4baa314ec1379
+SHA256: d62aec1dcab7d96b6ffe09fab3858406455ee2f17673bb664d9c315ace4defa5
+Section: System
+Priority: required
+Description: useful network library
 
 Package: libressl
 Version: 4.1.1-1
@@ -569,6 +630,37 @@ Homepage: https://github.com/ibara/oksh
 Description: OpenBSD Korn shell, a lightweight and portable sh.
 Author: The OpenBSD Project & Issei Furutani
 Name: OpenBSD Korn Shell
+
+Package: openssh
+Version: 10.2-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: libressl, zlib, libresolv, libedit, ncurses
+Conflicts: openssh-global-listener, openssh-server, openssh-client
+Replaces: openssh-global-listener, openssh-server, openssh-client
+Provides: openssh-global-listener, openssh-server, openssh-client
+Filename: ./debs/openssh-10.2-iphoneos-arm.deb
+Size: 2942478
+MD5sum: e73c82df58bcc298510fc04813f685d8
+SHA1: 0a62787c814053905af103c2bc0d8bf2fc03d810
+SHA256: 8eff5de886bdde68021911178b30bc8245583a45dff08bdc810c9e2a26305637
+Section: Security
+Priority: standard
+Description: secure shell client and server
+Name: OpenSSH
+
+Package: pcre2
+Version: 10.46-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/pcre2-10.46-1-iphoneos-arm.deb
+Size: 1451546
+MD5sum: 8b8b19395a00fcf9d4abf628343689c2
+SHA1: 474c12d1782eb46124b938e9a440a90464f2b17d
+SHA256: c8d12fd4c397b7e6bd175407d39f080612a3ef7794e2061268c2508f58a99d38
+Section: Development
+Priority: required
+Description: new version of Perl-compatible regular expressions library
 
 Package: perl
 Version: 5.42.0-1
