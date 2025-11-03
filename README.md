@@ -29,3 +29,13 @@ What's planned NOW? I'm going to compile 4.0.1 with this things
 * X86;AArch64 target support
 * Compiler-RT library
 * I'll bootstrap it (first build with -O0 :D)
+
+### Hello again, people!
+
+Yes, no activity for a week. 
+
+I'm busy. I built ~10 packages, but won't release until I'll build LLVM/Clang+LibC++ (and maybe Flang/Classic Flang and compiler-rt). I've reached C++17 support (LLVM 5.0.1)
+
+LLD 9.0 is unstable btw (at least for LibC++), but I built it static. Of course, no release soon. I build all the compilers with -O1 now. Hope 5.0.1 works. 
+
+Probably LLVM 10+ ARM optimizer is stable. Or not!
