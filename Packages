@@ -6,10 +6,10 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Conflicts: apr-lib
 Provides: apr-lib
 Filename: ./debs/apr-1.7.6-1-iphoneos-arm.deb
-Size: 654262
-MD5sum: 9e9991485236b7dfceefe05c46887b11
-SHA1: 4ce813ed30d516f27ea3bca095b75759fa2c72af
-SHA256: 66f9adc3409a22747b6322c213ee005923f83c74abce3ef934907963f678cfd6
+Size: 653526
+MD5sum: c9fe3d473c4f879ad9d0260259935ce9
+SHA1: 39046d197a9e15e165cec59beb604907ecb22c2d
+SHA256: 03a07232a61cd332ba42a4ba0ad45bd61be8ac7a22469e3105c7eda492e92b1b
 Section: Development
 Priority: optional
 Homepage: http://apr.apache.org/
@@ -21,11 +21,11 @@ Version: 1.6.3-1
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Depends: apr, berkeleydb, expat, sqlite3
-Filename: ./debs/apr-util-1.6.3-iphoneos-arm.deb
-Size: 1161804
-MD5sum: b05b659ad728c4f1ec1489b51fe8110d
-SHA1: 8780b92071e63729b73f6d62e19170e3184a582d
-SHA256: dbe678b6eda03942d5f556e8ab0eb6e57a2d0b68a68b4d4d27997ec354f1eeb0
+Filename: ./debs/apr-util-1.6.3-1-iphoneos-arm.deb
+Size: 1161826
+MD5sum: 7ee754fa655c56cc821eaf7f5e37cbe7
+SHA1: bbbcd80a38730627076b18d14354dbde8a470c56
+SHA256: eca69ff9757922012fcf85ba07d2609c32430db070a6db5b03f8f3b8eda4c46b
 Section: Development
 Priority: standard
 Description: data structures and utilities for Apache APR
@@ -87,10 +87,10 @@ Version: 1.1.0-1
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Filename: ./debs/bzip2-dev-1.1.0-1-iphoneos-arm.deb
-Size: 42436
-MD5sum: f18845b9a6a1cc6f97d299ca62e772f1
-SHA1: b31e5ef97156c4833ed169aa98e86ef4cb5f7a38
-SHA256: f8e5ca5fb72fe89c5d3e05ad584a5cabc2b62f2fb1854bd24ca40b9d5cb09706
+Size: 42010
+MD5sum: 30fc1765ae8159523700a3df20cbff98
+SHA1: fb5c84f88dc46dc001e71d792637e11195e9773c
+SHA256: ff48ef684a7e9847893d5788b439854cdf9471a75b0b8fa33f78f13dd8280fbc
 Section: Development
 Priority: optional
 Homepage: http://www.bzip.org/
@@ -124,53 +124,27 @@ Section: Development
 Description: Provides CoreFoundation.framework
 Name: CoreFoundation Framework
 
-Package: clang
-Version: 3.9.1-1
+Package: chicken
+Version: 5.4.0-1
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
-Depends: org.coolstar.cctools
-Conflicts: gcc, iphone-gcc, org.coolstar.llvm-clang
-Replaces: gcc, iphone-gcc, org.coolstar.llvm-clang
-Provides: gcc, iphone-gcc, org.coolstar.llvm-clang
-Filename: ./debs/clang-3.9.1-1-iphoneos-arm.deb
-Size: 87762980
-MD5sum: 7a1dea22462839ad560fb1bcc8875acd
-SHA1: 03b91de6bc6fed01fdd37693ae01c515549db5e6
-SHA256: cf6c03a01f880cc14d26fd369c37dab6c106766bb2f57990eb69d32703fb97fb
+Filename: ./debs/chicken-5.4.0-1-iphoneos-arm.deb
+Size: 4973210
+MD5sum: 1219ab1cc72aec9155b3f9eb749a63ad
+SHA1: 4ff0e20d9a0e5801ab9763bced2c2909e68c898f
+SHA256: 420fede0163b4bc4f422aa4c0568767d22b19c30f68df7dd3d36d3c4b47a8259
 Section: Development
-Homepage: https://llvm.org/
-Description: C/C++ compiler.
- WARNING(!!!): ARMv7 ONLY. EXTERNAL LIBRARIES SUPPORT CANNOT BE CURRENTLY GUARANTEED.
- WARNING(!!!): YOU MAY NEED TO USE YOUR OS SDK DUE TO ARMv6 TOOLCHAIN
- WARNING(!!!): DESPITE IT WAS CHECKED, STABILITY CANNOT BE GUARANTEED ANYWAY
- WARNING(!!!): FOR ARMv6 DEVICES PLEASE USE iPhone-GCC
-Name: LLVM/Clang
-
-Package: cmake
-Version: 3.24.4-1
-Architecture: iphoneos-arm
-Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
-Depends: cfframework
-Filename: ./debs/cmake-3.24.4-1-iphoneos-arm.deb
-Size: 20361960
-MD5sum: 7fe9ce69fa8fdf421c8689c26e40c342
-SHA1: 62d980c2b4d0d792a638527d49c206f5fb627196
-SHA256: fdea554127a774024493399a78ba8ced0fb8f2e76860e40681cc5ad3eb41e066
-Section: Development
-Homepage: https://cmake.org/
-Description: A cross-platform, open-source build system
-Author: Kitware, Inc.
-Name: CMake Build System
+Description: Scheme compiler
 
 Package: csu
 Version: 224-1
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Filename: ./debs/csu-224-1-iphoneos-arm.deb
-Size: 6202
-MD5sum: 7f6513e456300642bb0d546c89bdaeba
-SHA1: f67e3aa759a5a2b87798dbdc442b47da16249424
-SHA256: e75971ce0cd95f65fc47950495c0dcd8499762e8d70cca837376b4af8aeafeff
+Size: 5612
+MD5sum: 5c6dcec65fad8e49577ca4ad1e3e43e7
+SHA1: ea061cdeb20221041982adc80a41176fb5746880
+SHA256: 25a51f1bc0a0ffeed6cbba8024427c1375262205c539a5d69969125fabf625a4
 Section: Development
 Priority: optional
 Description: library loading and support stubs. armv7 support included
@@ -222,6 +196,35 @@ Priority: optional
 Description: dpkg development utilities
 Name: dpkg-dev
 
+Package: ecl
+Version: 24.5.10-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: libffi, gmp
+Filename: ./debs/ecl-24.5.10-1-iphoneos-arm.deb
+Size: 6557184
+MD5sum: b4227d9c0bbf59ab0e4b1dcbb6032cc3
+SHA1: b82af688b16157393bf88800c65cadae6d1aeee8
+SHA256: ad1b26210fa8123515aeba1ed198a95a6ef074e298c4aa8eb7d04237a633de76
+Section: Development
+Description: Common Lisp compiler
+
+Package: emacs
+Version: 30.2-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: ncurses, gnutls, zlib, gmp, sqlite3
+Conflicts: com.mc.emacs
+Filename: ./debs/emacs-30.2-1-iphoneos-arm.deb
+Size: 56432412
+MD5sum: 5ecc9cbdea6a644d8a79ada5e308fb7e
+SHA1: e8f963d3ee954c0ea75d5fc6db0e00b0547011ff
+SHA256: 8612549d2f1779e374fe89b9b888f7d038540a413e03780387b031013515cc5e
+Section: Text_Editors
+Priority: optional
+Description: GNU's Lisp-based text editor
+Name: Emacs
+
 Package: expat
 Version: 2.7.3-1
 Architecture: iphoneos-arm
@@ -242,10 +245,10 @@ Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Depends: bzip2, lzma, zlib
 Filename: ./debs/file-5.46-1-iphoneos-arm.deb
-Size: 557930
-MD5sum: a7800997272a69b7ddf74efc33c3664d
-SHA1: abb87bca7a54d0a3cf66cd5b7e4dff69a481249a
-SHA256: 4d41db64df90eef32179193876690d271285a734bd821dd43df85191bc2f3d76
+Size: 557296
+MD5sum: 6b1a60add25c654229e9b5b9b30b7ea8
+SHA1: d2a0c6720456b10ee1d595e1740f4f77f745d145
+SHA256: 12b39bca984722ca6968074ed954113aa6162594d0d97346a4d7e11e47290bea
 Section: Utilities
 Priority: important
 Homepage: http://www.darwinsys.com/file/
@@ -262,14 +265,29 @@ Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: m4
 Filename: ./debs/flex-2.6.4-1-iphoneos-arm.deb
-Size: 259096
-MD5sum: a8aaec9a478afd0f5900898a3ebd2913
-SHA1: e519c083fc373eae2ad21bb005edebd04c1724e3
-SHA256: ab9b5075776574e990a7dc2cf88326cb7fd8f39d756a29ce6fb0fa5030ca222c
+Size: 258676
+MD5sum: 3628437eee7fc25dd9794cbae9701e9f
+SHA1: b593821f0e21508d0ac79a0870cb72a83f5bc03c
+SHA256: 04b0c2898bb5e72aa40851c68a6d7ad693e7c6008c0c59479681e0c5a0449f02
 Section: Development
 Priority: standard
 Description: GNU lexer derived from Lex
 Name: Flex
+
+Package: gawk
+Version: 5.3.2-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: gettext, gmp, readline, mpfr, cfframework
+Filename: ./debs/gawk-5.3.2-1-iphoneos-arm.deb
+Size: 1768620
+MD5sum: 9f65103860c771f4b12a6c7a7e86e9c7
+SHA1: 3738333c6ee4df43b0febf9c890ab308c48d4f67
+SHA256: cc4cd2ba6fc2c05d53adfcddfac73f4d3d230a2eede1aff258dbb369ca6c30b1
+Section: Utilities
+Priority: important
+Description: GNU's heavy-weight implementation of awk
+Name: Gawk
 
 Package: gmp
 Version: 6.3.0-1
@@ -304,15 +322,28 @@ Homepage: http://www.gnu.org/software/gnutls/
 Description: free sofware alternative to OpenSSL
 Name: GnuTLS
 
+Package: grep
+Version: 3.12-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: pcre2, gettext, libiconv
+Filename: ./debs/grep-3.12-1-iphoneos-arm.deb
+Size: 434474
+MD5sum: e6eab34af00709184ac786c747079890
+SHA1: b3e49fa34b5296922e844b42c2ef10c480c1b9b3
+SHA256: d4779f37ac8cded246759432b98a77eb6355225798de4b972929277166418892
+Section: Utilities
+Description: searches files from regular expressions
+
 Package: headfile
-Version: 6.1
+Version: 6.1-1
 Architecture: iphoneos-arm
 Maintainer: Alexander <aalx2176@gmail.com>
-Filename: ./debs/headfile-6.1-iphoneos-arm.deb
-Size: 2485154
-MD5sum: ab0676e3d91a1a09cfba202045738df3
-SHA1: 2a127dd6ef993bac88f6b489b9045e18b562f8b8
-SHA256: 375a4dfeb1f9e5d75390ca8352937cf0cccbe1141e71d9cb89fe1d2c421f10f0
+Filename: ./debs/headfile-6.1-1-iphoneos-arm.deb
+Size: 2480506
+MD5sum: d911c1156bd4f3ee2d9eb6318c422e85
+SHA1: 9f4713766f27c3b6063181c73b60cd1a2b790e0a
+SHA256: 5eb96570706282f946eb3a00cdcb9aea24e6ae885fba556d508e2e11d511aa18
 Section: Development
 Priority: optional
 Description: header files and dynamic libraries for gcc/clang to compile the C/C++ source files.
@@ -342,16 +373,29 @@ Author: Stephen Dolan
 Name: jq (JSON Processor)
 
 Package: libedit
-Version: 3.1
+Version: 3.1-1
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
-Filename: ./debs/libedit-3.1-iphoneos-arm.deb
-Size: 393058
-MD5sum: 933a35aa4ea10b8e807520145e91f4f1
-SHA1: 1f4b0c6f63c99e84c0d044bd6a8ae435b9225757
-SHA256: 35921f3680905552421441d1ffa6457aa5e1557795e9bd64453697de6eb417e8
+Filename: ./debs/libedit-3.1-1-iphoneos-arm.deb
+Size: 392680
+MD5sum: fbf399d477e677f3b317926e97201977
+SHA1: 129c5b4088974654665d3b0c392ad6c0752a52a8
+SHA256: 16c72a2068e1fa06b7b1c7a777b62bc0d5874580f991aff3e529e1f5ec598834
 Section: System
 Description: BSD readline implementation
+
+Package: libffi
+Version: 3.5.2-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/libffi-3.5.2-1-iphoneos-arm.deb
+Size: 22028
+MD5sum: 5c876dabb73ac28ed3be92cfadb9c426
+SHA1: ac025f7fdac3cd359b8c65afe052a27a0c955cf9
+SHA256: cf3b8962fece09075edc1f49aa3feedd7630ec09bcdc1cd0e6c75de99f80898e
+Section: Development
+Priority: optional
+Description: dynamic generation of function calls
 
 Package: libgcc
 Version: 4.2.1-5636-1
@@ -360,10 +404,10 @@ Essential: yes
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Installed-Size: 92
 Filename: ./debs/libgcc-4.2.1-5636-1-iphoneos-arm.deb
-Size: 11880
-MD5sum: be84518120df7153910c64664c46a73b
-SHA1: 66e1903887e1ce2144b8bbe69cad508429621e2b
-SHA256: 4dee5cc5d42ba92b2553f74062bcfb3f5f7531f9969a0c2da7c73bf7c98a0e76
+Size: 11414
+MD5sum: e5558fc1f97e3382d5e9ad6c46766946
+SHA1: 42a50f880c1356dbeb137b4bdfedee502a7bba28
+SHA256: c5838c2610bcbd68d4d6723944ac2d5b3f7723d14ae20ff66ed197e7e4211ca9
 Section: System
 Priority: required
 Description: core library used by everything
@@ -373,40 +417,25 @@ Version: 1.18-2
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Installed-Size: 1492
-Filename: ./debs/libiconv-1.18-2-iphoneos-arm.deb
-Size: 1601620
-MD5sum: 1b26f85922b8c5b59ff45a31fcc68518
-SHA1: bf8c1d7159de2a2dcc766f1eabb81cfb015dbd30
-SHA256: fed3276810f96ac12515f688e1de063c052e3c29067b91e0e841c7d1d7273ec1
+Filename: ./debs/libiconv-1.18-1-iphoneos-arm.deb
+Size: 754614
+MD5sum: ab3714b29e5b9db504fbf750d745d853
+SHA1: b529c2549605028fa138700ce6cde8755f71b868
+SHA256: 734359556d7b127e33c56989a6e024ccee5841b408267a1dd3318ad06ea40154
 Section: Development
 Priority: optional
 Description: This package provides an open source iconv() implementation
 Name: libiconv
-
-Package: libiconv-static
-Version: 1.18-1
-Architecture: iphoneos-arm
-Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
-Installed-Size: 1492
-Filename: ./debs/libiconv-static-1.18-1-iphoneos-arm.deb
-Size: 1597772
-MD5sum: 74e5e0eae083a44c33dc1fac56464d25
-SHA1: 0a85670ca063c8ea495511257018b6419e6b9a6f
-SHA256: 4a013899dcc27755e8915b0f24969bab4290dcb2c4d8e0f90e8be44ca4f182cb
-Section: Development
-Priority: optional
-Description: This package provides an open source iconv() implementation. No dynamic lybs
-Name: libiconv-static
 
 Package: libresolv
 Version: 9
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Filename: ./debs/libresolv-9-iphoneos-arm.deb
-Size: 277320
-MD5sum: a4df3fdc6697e840487d28da274edad2
-SHA1: 51585dc30c798a1e786a9e562cf4baa314ec1379
-SHA256: d62aec1dcab7d96b6ffe09fab3858406455ee2f17673bb664d9c315ace4defa5
+Size: 276788
+MD5sum: d814f5bf3c6754e9f8ab3a4d5cc66253
+SHA1: ec5bfff5be1274def74e1a6d93317945e74c6eea
+SHA256: 9b198d87619779e801929d9375e7fe83591b50ecb71df32810d9e5f33c211129
 Section: System
 Priority: required
 Description: useful network library
@@ -418,11 +447,11 @@ Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Conflicts: openssl, libssl0.9.8, libssl1.0, libssl1.1.1
 Replaces: openssl, libssl0.9.8, libssl1.0, libssl1.1.1
 Provides: openssl, libssl0.9.8, libssl1.0, libssl1.1.1
-Filename: ./debs/libressl-4.1.1-1-iphoneos-arm.deb
-Size: 8415030
-MD5sum: 5ed781a397762ac797bd246c83c3f9bc
-SHA1: d6a372021f6a61958133c8d19e94d40ad9058124
-SHA256: 8a6c53b5a14dffda5b0e5ecb524011cacbec032372ce4f23d70d7ddae7b700f6
+Filename: ./debs/libressl-4.1.1-iphoneos-arm.deb
+Size: 8414470
+MD5sum: 6f7c41630c3bac06a4f3572c02c30841
+SHA1: 096752ed6719dc6711220d23a7a026222fcda87d
+SHA256: 65cdee22ec1ba4ce8658e604b5cd2095b1a64b5f01263ad1160b34823747d587
 Section: Security
 Priority: standard
 Description: Modern SSL library. OpenSSL libraries 0.9.x/1.x included for compatibility
@@ -445,6 +474,30 @@ Section: Development
 Description: GNU build system for portable libraries.
 Tag: purpose::console
 Name: libtool
+
+Package: lua
+Version: 5.4.8-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/lua-5.4.8-1-iphoneos-arm.deb
+Size: 376326
+MD5sum: 981d295307ccc6b55d2c8fe4cbcedf4a
+SHA1: f8213f2143fdedee4a0e0405117d6dd2bfe235da
+SHA256: 3a6ff53c4d763b01a766f9820d413d30cb66a2f0b5d92f0e0f58c68fb88a230e
+Section: Development
+Description: simple scripting programming language
+
+Package: luajit
+Version: 2.1.1761727121-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/luajit-2.1.1761727121-1-iphoneos-arm.deb
+Size: 947748
+MD5sum: d5d5f8a9092963679ad86f1edb0ccfb8
+SHA1: 0563aecd5071345aae248c747ec29982cddf777d
+SHA256: 833a2e748a25faad1350700ea883162edb06d12ef60eb9365882ddbf673486dc
+Section: Development
+Description: Lua Just-in-Time interpreter
 
 Package: lzip
 Version: 1.25-1
@@ -639,25 +692,25 @@ Depends: libressl, zlib, libresolv, libedit, ncurses
 Conflicts: openssh-global-listener, openssh-server, openssh-client
 Replaces: openssh-global-listener, openssh-server, openssh-client
 Provides: openssh-global-listener, openssh-server, openssh-client
-Filename: ./debs/openssh-10.2-iphoneos-arm.deb
-Size: 2942478
-MD5sum: e73c82df58bcc298510fc04813f685d8
-SHA1: 0a62787c814053905af103c2bc0d8bf2fc03d810
-SHA256: 8eff5de886bdde68021911178b30bc8245583a45dff08bdc810c9e2a26305637
+Filename: ./debs/openssh-10.2-1-iphoneos-arm.deb
+Size: 2940932
+MD5sum: 6cc9d288a574c611594db7df7c8ac01e
+SHA1: 985c839e0ad726f9bc7bd07f438f12347ebd4b20
+SHA256: e23fda18016fbf39b3d1be29e1a3b7a79693e31fd1a9944f72caa3b524f71ff7
 Section: Security
 Priority: standard
 Description: secure shell client and server
 Name: OpenSSH
 
 Package: pcre2
-Version: 10.46-1
+Version: 10.47-1
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
-Filename: ./debs/pcre2-10.46-1-iphoneos-arm.deb
-Size: 1451546
-MD5sum: 8b8b19395a00fcf9d4abf628343689c2
-SHA1: 474c12d1782eb46124b938e9a440a90464f2b17d
-SHA256: c8d12fd4c397b7e6bd175407d39f080612a3ef7794e2061268c2508f58a99d38
+Filename: ./debs/pcre2-10.47-1-iphoneos-arm.deb
+Size: 1259206
+MD5sum: 60f4a64744f04e8c693954153d46af26
+SHA1: 68907446e2743fe90a4de3380c3c9822c6241068
+SHA256: 5d558385d385cc3e7a9005494f0a5e69cb22d7d32a09b7b604666995333a7523
 Section: Development
 Priority: required
 Description: new version of Perl-compatible regular expressions library
@@ -677,6 +730,20 @@ Section: Scripting
 Priority: optional
 Description: awesome combination of sed and awk
 Name: Perl
+
+Package: pigz
+Version: 2.8-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: zlib
+Filename: ./debs/pigz-2.8-1-iphoneos-arm.deb
+Size: 106636
+MD5sum: a5633afe379c1c6cf8804c6a36b14b01
+SHA1: f395af9d1f90d397caee8bee2dcc7e33e345b700
+SHA256: ddad540e260aa9d35baa0c971bc0a6ea7b5e706623424b5fe1bd0e48bb6307b6
+Section: Utilities
+Priority: required
+Description: parallel gnuzip
 
 Package: pkg-config
 Version: 0.29.2-1
@@ -747,10 +814,10 @@ Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Installed-Size: 180
 Pre-Depends: dpkg (>= 1.14.25-8)
 Filename: ./debs/sed-4.8-1-iphoneos-arm.deb
-Size: 441730
-MD5sum: b169f78a77d03be54e1f836e9a2eccbe
-SHA1: 0d5780fee76f23dae58dc36543567859f51b88a8
-SHA256: e51c2a0c89973290f66aad26bd0ad2a3aa1f2c3c04d8fe0cfe378ea0deeabe75
+Size: 707218
+MD5sum: cab420cd281a65f3d32c1be77b36523d
+SHA1: aeb7220e09f890d330863fa22f0e500710aa9ca7
+SHA256: bc42b4addaf2bfc787d66988a67077153511a3ea149a52ccab69a95e744b9bd2
 Section: Utilities
 Priority: important
 Homepage: http://www.gnu.org/software/sed/
@@ -762,10 +829,10 @@ Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Depends: apr, apr-util, libressl, zlib
 Filename: ./debs/serf-1.4.0-1-iphoneos-arm.deb
-Size: 242110
-MD5sum: fc9f03ad5357e4613e5415c4d2217489
-SHA1: b6746b022e8a60cf49a7054eb69e0381b5bdea70
-SHA256: 8914e7cb98826e07ec397a39cd76ad34a1246ac03b3f46cbaee5bcbad7e7f30d
+Size: 241268
+MD5sum: bab7381f007ac16203185fe64315a39b
+SHA1: f990418241f80b73c93e133bbb84143dad0d7fba
+SHA256: f981a1a555a5d2be46c57ffcea6d6851bd9db747e166b5bcda90e2ddab0f33c3
 Section: Development
 Priority: optional
 Homepage: https://serf.apache.org/
@@ -823,10 +890,10 @@ Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Depends: apr, apr-util, expat, neon, serf, zlib, libressl, sqlite3, lz4, gettext, file
 Filename: ./debs/subversion-1.14.5-1-iphoneos-arm.deb
-Size: 9891186
-MD5sum: 95bd60626bd90542d2a2f53c81107cda
-SHA1: 9f60f623d0adcd15e171e0b55e151ac10d9bed6e
-SHA256: 8ec63c21c58f1ee9beb38b2716660d220a024362a488fa8b989c6ee3ac7c4224
+Size: 9890784
+MD5sum: 3c29528ccba0416450a0e43f0bc2efbc
+SHA1: 40d65663a6f29b26256a5430ad07493cceeeaee3
+SHA256: 8d53b38a7f7c184de7a831a320e7717f70e7afde4ec208bfea5e79ebe03d2924
 Section: Data_Storage
 Priority: standard
 Description: modern version control system
@@ -838,10 +905,10 @@ Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx)
 Installed-Size: 748
 Filename: ./debs/sudo-1.9.17p2-1-iphoneos-arm.deb
-Size: 5967354
-MD5sum: db01f9a56ad783818eb6f9a5f670d7d7
-SHA1: c47ce78d628e8737ce8638b6b2c42770cf9be907
-SHA256: 5d19db122164841c994bc96e7ec723031b76c0fd10ff193a81e6b7f8b459f2b6
+Size: 5967002
+MD5sum: e5213326ae10479e48e214b1f8b4d8cb
+SHA1: 91a942d43037a061e5aafcc85743c16d71b2eca9
+SHA256: 0122c00e00229b42d7de3f31dfb0f661d2392199e814dcd989a12ebcaf22bd27
 Section: Administration
 Priority: standard
 Description: temporarily assume root priviledges
@@ -884,6 +951,34 @@ Priority: required
 Homepage: http://www.gnu.org/software/tar/
 Description: tool for making tape archives.
 Name: Tape Archive
+
+Package: texinfo
+Version: 7.2-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Depends: ncurses, gettext, cfframework, perl
+Filename: ./debs/texinfo-7.2-1-iphoneos-arm.deb
+Size: 2654428
+MD5sum: da5f6745901bf52c8729eb8c8080f0fd
+SHA1: efd5d13ed8fb7983bb5dbf72730d9d2677746168
+SHA256: 7e2cd1de4ae048140a2c8c10aef16506b305d4224aaed720696d0962bbfe9be8
+Section: Development
+Priority: optional
+Description: The GNU documentation system
+Name: Texinfo
+
+Package: tree
+Version: 2.1.3-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/tree-2.1.3-1-iphoneos-arm.deb
+Size: 34590
+MD5sum: 7b91cc88edba3af745c8b8a8fcfd489d
+SHA1: e1ee53a3f6f472e77de172930a60d69357b3394b
+SHA256: 6924b771fdfafa96159a1a2cb03eb765c717c262de0b2536ac71105793b125f1
+Section: Utilities
+Description: indented, colored lists of directories
+Name: tree
 
 Package: vim
 Version: 9.1-1
