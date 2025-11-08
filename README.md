@@ -39,3 +39,9 @@ I'm busy. I built ~10 packages, but won't release until I'll build LLVM/Clang+Li
 LLD 9.0 is unstable btw (at least for LibC++), but I built it static. Of course, no release soon. I build all the compilers with -O1 now. Hope 5.0.1 works. 
 
 Probably LLVM 10+ ARM optimizer is stable. Or not!
+
+### Well...
+
+Clang 6.0 released. 100% stable. Can compile itself. 
+
+Maybe 7.0 soon. But no more Clang, sorry. I'm tired. Anyway, better than 3.7 from Cydia.
