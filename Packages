@@ -141,10 +141,10 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
 Filename: ./debs/clang-installer-1.0-iphoneos-arm.deb
-Size: 974
-MD5sum: 4dcbec7a3d03eddfe2fa412927435bcd
-SHA1: 730da45e8cb6a475d075dca3d6d15ff892b4ae11
-SHA256: b26f6a0066fe2d6b487539a44c9bd2b7ba71f9d9cf72406f2192c0e05738ce3a
+Size: 744
+MD5sum: c43e715e3b83c114a8ff08778cc21600
+SHA1: 1d3913a6b79f0862da30c173b2b72a8bcbc8381b
+SHA256: fba4024b9ad1ba7e59dc26a54e9054cbd026c12b4b3d0be248da65de3e49a946
 Section: Development
 Description: Installs latest clang
 Name: LLVM
