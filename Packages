@@ -136,6 +136,19 @@ SHA256: 420fede0163b4bc4f422aa4c0568767d22b19c30f68df7dd3d36d3c4b47a8259
 Section: Development
 Description: Scheme compiler
 
+Package: clang-installer
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/clang-installer-1.0-iphoneos-arm.deb
+Size: 974
+MD5sum: 4dcbec7a3d03eddfe2fa412927435bcd
+SHA1: 730da45e8cb6a475d075dca3d6d15ff892b4ae11
+SHA256: b26f6a0066fe2d6b487539a44c9bd2b7ba71f9d9cf72406f2192c0e05738ce3a
+Section: Development
+Description: Installs latest clang
+Name: LLVM
+
 Package: csu
 Version: 224-1
 Architecture: iphoneos-arm
