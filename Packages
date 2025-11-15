@@ -302,6 +302,22 @@ Priority: important
 Description: GNU's heavy-weight implementation of awk
 Name: Gawk
 
+Package: gettext
+Version: 0.26-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses, libiconv, libunistring
+Filename: ./debs/gettext-0.26-1-iphoneos-arm.deb
+Size: 10506232
+MD5sum: 1e24ba79e49b145e1eb90461bd75031a
+SHA1: f94f75ae0629bd20c02cf19ae69ded7d7dfae142
+SHA256: ae44eef0e75ece860064f234554d64391e8ee8ee43a60f133a594f6e743b66bd
+Section: System
+Priority: important
+Homepage: http://www.gnu.org/software/gettext/
+Description: internationalization helper for strings
+
 Package: gmp
 Version: 6.3.0-1
 Architecture: iphoneos-arm
@@ -487,6 +503,21 @@ Section: Development
 Description: GNU build system for portable libraries.
 Tag: purpose::console
 Name: libtool
+
+Package: libunistring
+Version: 1.4-1
+Architecture: iphoneos-arm
+Maintainer: Alexander (AAlx) <aalx2176@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libiconv
+Filename: ./debs/libunistring-1.4-1-iphoneos-arm.deb
+Size: 2228530
+MD5sum: 3ff00b27341bc5e406c18de76f91d735
+SHA1: 95b4328596043c6e823681d2465c208cd3485e0f
+SHA256: 2bbcf62c0f1af4c689ae393c3af02a76b1b71d96e25de585466b7b6bc5807554
+Section: System
+Priority: important
+Description: C string library for manipulating Unicode strings
 
 Package: lua
 Version: 5.4.8-1

@@ -1,21 +1,21 @@
 Architectures: iphoneos-arm
 Codename: aalx-repo
 Components: main
-Date: Sat, 08 Nov 2025 16:54:27 UTC
+Date: Sat, 15 Nov 2025 13:36:22 UTC
 Description: iOS 6 compiled utils
 Label: AAlx
 Origin: AAlx's Repo
 Suite: stable
 Version: 1.2
 MD5Sum:
- dd25c0c02ab17e88bdf62fb93ce71661            35883 Packages
- 7f5d867d721e9c1aa496de1fc2758282            11383 Packages.bz2
+ 7b4a0af14dcc6748bc790c0b7d728d83            36922 Packages
+ f2cf8b381fd78fa933228df8e42eefd1            11650 Packages.bz2
  d41d8cd98f00b204e9800998ecf8427e                0 Release
 SHA1:
- 603725205d12acf2192e60c092e6993b4e634330            35883 Packages
- 525adfa28da6196fc151a3073002992ac9cc5ead            11383 Packages.bz2
+ c0b76cd2fb454c679a055593f8f88be9d754b4bf            36922 Packages
+ c079f41c32445c88e779f34a718c048e2352e6c5            11650 Packages.bz2
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Release
 SHA256:
- 228e3b6a75c1f3c7260ec67d949f8e7c688a84aae727bd7d1712b32464773cb7            35883 Packages
- fd8e5b02772498dc76af10da12f8afe44b0b7e0c5983c58f90f1e7f38363e98a            11383 Packages.bz2
+ 32bbc180dd8ccc117bc65ef4fb00e43fee3c651b846e951350d2bded7834d842            36922 Packages
+ 4e1771739f2eaa0639722a2aff02bb8cc04307ba4562858f2cd31de3226b67fd            11650 Packages.bz2
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Release
