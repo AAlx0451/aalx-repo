@@ -1,0 +1,1177 @@
+Package: apr
+Version: 1.7.6-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: apr-lib
+Provides: apr-lib
+Filename: ./debs/apr-1.7.6-1-iphoneos-arm.deb
+Size: 653532
+MD5sum: d302dbe4408dc73ba2c2205232229d9a
+SHA1: fa34ca5c0fd33e5d2ff9586b9aba509b0346ec29
+SHA256: 90ab695172a095c02aee535f8c5c12bb6e224cb2190926defb3cf9af452c3d19
+Section: Development
+Priority: optional
+Homepage: http://apr.apache.org/
+Description: platform abstraction library from Apache
+Name: APR
+
+Package: apr-util
+Version: 1.6.3-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: apr, berkeleydb, expat, sqlite3
+Filename: ./debs/apr-util-1.6.3-1-iphoneos-arm.deb
+Size: 1161836
+MD5sum: d9933abe17e04cfbab59b6d6a31f7e87
+SHA1: 2f20b8ced9362cf43c3b2565a0ed0b84daf166ad
+SHA256: 7574cd6a8f209f0520e8535b4b74705752f176ac4e245cc2142e5664105b3cd8
+Section: Development
+Priority: standard
+Description: data structures and utilities for Apache APR
+Name: APR-util
+
+Package: autoconf
+Version: 2.72-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Installed-Size: 1756
+Depends: m4
+Filename: ./debs/autoconf_2.72_iphoneos-arm.deb
+Size: 991208
+MD5sum: 54d7e3ea02d5a639b53d5eeb2ffacc57
+SHA1: 398d4f4becc9061a27edab89593418421f48ec8b
+SHA256: 27af20a7afe640f2e1a843542d77ee285e68db03f8e9146628dfb75119249121
+Section: Development
+Priority: optional
+Homepage: http://www.gnu.org/software/autoconf/
+Description: an intricate set of m4 macros
+Name: Autoconf
+
+Package: automake
+Version: 1.18-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Installed-Size: 1492
+Depends: autoconf
+Filename: ./debs/automake-1.18_iphoneos-arm.deb
+Size: 706690
+MD5sum: dc2a11a05b7a0601f63e04e6b9ac95c4
+SHA1: 2ddd6f717888d48bcd0a829e5d860cd365428b37
+SHA256: 653005976cf332c70198eae7546e17009d05d7f8a70dff8d8727759fe5be594d
+Section: Development
+Priority: optional
+Homepage: http://www.gnu.org/software/automake/
+Description: automatically generate verbose makefiles
+Name: Automake
+
+Package: bash
+Version: 5.3-2
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Installed-Size: 592
+Depends: grep, ncurses, readline (>= 8.3-1), sed
+Filename: ./debs/bash-5.3-2-iphoneos-arm.deb
+Size: 6070900
+MD5sum: f1f6f36e381c78a2ec9572e6c0a13f9d
+SHA1: 8404744b91b848733bc22f4f05664f8ee4f78ad3
+SHA256: 32036ea9b4fa2ee1c0587028e00cebff8ed77c42fd3b0c2212a4c1e9a546b8e9
+Section: Terminal_Support
+Priority: required
+Homepage: http://www.gnu.org/software/bash/
+Description: the best shell ever written by Brian Fox. Latest version from GNU FTP!
+Name: Bourne-Again SHell
+
+Package: bison
+Version: 3.8-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/bison-3.8-1-iphoneos-arm.deb
+Size: 810620
+MD5sum: 2e757f3733658cd9ddc038cf4c5a4681
+SHA1: 9febec1d817e38514d7cb1743fcea495712c1774
+SHA256: 56a0a503ce05c2f9a2f17524ef27cc31dadce7c6f41bbbd36f94dc4a13f89a1a
+Section: Development
+Description: compiler compiler
+Name: Bison
+
+Package: build-essential
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Polina <aalx2176@gmail.com>
+Installed-Size: 7
+Depends: make, dpkg-dev, clang
+Filename: ./debs/build-essential_1.0_iphoneos-arm.deb
+Size: 968
+MD5sum: 348c1e106ad0c700fa2b1973be99ce9d
+SHA1: 4cc2cd1b7859b571fd520688656dbb71fea93a47
+SHA256: cdd4510e7a3275521f094cd0441e7b315ac9f92bd0c25bb070a2787116a28c19
+Section: Development
+Priority: optional
+Description: informational list of build-essential packages
+
+Package: bzip2-dev
+Version: 1.1.0-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/bzip2-dev-1.1.0-1-iphoneos-arm.deb
+Size: 42016
+MD5sum: d829eeea5d9e4fdc13b9dca713215971
+SHA1: 6f3e155114b59e7033fd1884af81a136133b6b03
+SHA256: 4acb6a4df3baf920a3e3c7d80601c629fa2a943bcc6a47fb2331204219b7be23
+Section: Development
+Priority: optional
+Homepage: http://www.bzip.org/
+Description: bzip2`s libs and headers
+
+Package: c-ares
+Version: 1.34.5-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/c-ares-1.34.5-1-iphoneos-arm.deb
+Size: 2098560
+MD5sum: d6b1878932e99c41fe5d53573481ed46
+SHA1: 1e74785efffb8061966875320f1d7ef0e056e388
+SHA256: 124540b8e5dcbf5910b94ebdc5bbf1f6f7acce7220642f184a12eb6dfbd0c5fb
+Section: Libraries
+Homepage: https://c-ares.org/
+Description: C library for asynchronous DNS name resolving
+Author: The c-ares project authors
+Name: c-ares
+
+Package: cfframework
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/cfframework-1.0-iphoneos-arm.deb
+Size: 2040096
+MD5sum: 2d6d1a892f70e40dcade9de270bc584b
+SHA1: a05b03c88245b9b46cab1e7798f717f91d64964b
+SHA256: 5edeb9b96a55ff406341d43659faed4b7b56513ef2cca0f41188ef37a7b6ee6b
+Section: Development
+Description: Provides CoreFoundation.framework
+Name: CoreFoundation Framework
+
+Package: chicken
+Version: 5.4.0-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/chicken-5.4.0-1-iphoneos-arm.deb
+Size: 4973224
+MD5sum: 97b727efb708ba3437145339661564ab
+SHA1: e4ad6cb60fa33903af66e85ef0c1747abdc54a63
+SHA256: c2e0bd96f6c5e630c25c4fe4128cd53969a715a45a045393d37d2f408b67ab37
+Section: Development
+Description: Scheme compiler
+
+Package: clang-installer
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/clang-installer-2.0-iphoneos-arm.deb
+Size: 950
+MD5sum: 12573315bbd70a8d0000a91c745b9130
+SHA1: 56dc8427ded2f0ac567066c13d626cdd655a602e
+SHA256: 76d15f900e5b02c01a2c35b08d21b051ca1c85326f452362e7e6146e6ccefc88
+Section: Development
+Description: Installs latest clang, lldb, libc++
+Name: LLVM installer
+
+Package: csu
+Version: 224-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/csu-224-1-iphoneos-arm.deb
+Size: 5622
+MD5sum: 7d900dafc91d295234a93a85394d901f
+SHA1: 85bb4c8a133a7174f000b136d1cee662dc3d1370
+SHA256: 4c5026a689d3699a7207ab84d99e90e8e9e8aa75eb2964311ec6c327a11e9316
+Section: Development
+Priority: optional
+Description: library loading and support stubs. armv7 support included
+Name: Csu
+
+Package: curl
+Version: 8.16.0-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.Ðcom>
+Depends: gnutls, libssh2, nghttp2
+Filename: ./debs/curl-8.16.0-1-iphoneos-arm.deb
+Size: 1601528
+MD5sum: dacc52179c01d98b09a7dcb0876f0f9a
+SHA1: 3d82a6e2cb618dccfd0f8144534b4d4583230f4e
+SHA256: 21dacc30e3356668cf6c6bbf6c5405125a98f71094891cbfc3968eccb4a8def7
+Section: Networking
+Homepage: https://curl.se/
+Description: Command-line tool for transferring data with URLs. Now with HTTP/2 support!
+Author: Daniel Stenberg
+Name: cURL
+
+Package: dash
+Version: 0.13.5-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/dash-0.5.13-1-iphoneos-arm.deb
+Size: 192154
+MD5sum: f0cfb1e8650983da9d4df5e47e1585f7
+SHA1: 6096d9580b1111ebc45a691d9420d0349838e4f1
+SHA256: b767eab2da26eaa3e36a377c0b437c0d1d9b2598c38e8460eace30ceffe127aa
+Section: Terminal_Support
+Priority: standard
+Description: Debian very POSIX shell. To install as system (WARNING: UNSAFE!!!): dashassh
+Name: Debian Almquist shell
+
+Package: dpkg-dev
+Version: 1-final
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Installed-Size: 1492
+Depends: dpkg, perl (>= 5.42.0)
+Filename: ./debs/dpkg-dev_1-final_iphoneos-arm.deb
+Size: 218298
+MD5sum: 9dc37931b3ab0aab29e2def24b222610
+SHA1: 50e0948b9c5d6780cfe61dac14d812643c4f39e4
+SHA256: 5e84d594ad403ac8efab80b6ebcf2d55787eaa2154ca82b25be88cef329a0416
+Section: Development
+Priority: optional
+Description: dpkg development utilities
+Name: dpkg-dev
+
+Package: ecl
+Version: 24.5.10-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: libffi, gmp
+Filename: ./debs/ecl-24.5.10-1-iphoneos-arm.deb
+Size: 6557200
+MD5sum: 68e459b16caf8ecc6944cc8d05b5baf7
+SHA1: f1b08e8aba9d02d134f6c26e671ad1a0aebd12d5
+SHA256: c87e82ff18bd4648ecce86db060925aabbe5f3b5f3fc9faa4ea9f6840fd1cef7
+Section: Development
+Description: Common Lisp compiler
+
+Package: emacs
+Version: 30.2-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: ncurses, gnutls, zlib, gmp, sqlite3
+Conflicts: com.mc.emacs
+Filename: ./debs/emacs-30.2-1-iphoneos-arm.deb
+Size: 56432422
+MD5sum: d382e4c1d3a3990e76595e4aecd98ec5
+SHA1: d5ecf35c99ba48583256673f7adc031c493b3ab6
+SHA256: 1dbaba138d5f473201efac35de1b3cba1eaa7ee7f49164588a35c0ee0ea9f7b9
+Section: Text_Editors
+Priority: optional
+Description: GNU's Lisp-based text editor
+Name: Emacs
+
+Package: expat
+Version: 2.7.3-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/expat-2.7.3-1-iphoneos-arm.deb
+Size: 206008
+MD5sum: 5964517f9ef4d01de1878ab99a5b1d2f
+SHA1: 7ad6755678c49a1cc5b26abeee796d1f301dd5de
+SHA256: 97c28845713ba54cc734fda5e9fb8ccdba2eb843d54c675b01019b6f933a4614
+Section: Development
+Priority: standard
+Description: C99 XML parser lib
+Name: Expat
+
+Package: file
+Version: 5.46-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: bzip2, lzma, zlib
+Filename: ./debs/file-5.46-1-iphoneos-arm.deb
+Size: 557302
+MD5sum: 325aa76130eca61ab0df9801c2be4e1e
+SHA1: aa205a61f1875e59f2441321bcf93a6535f0deda
+SHA256: eccb4184bbef94e77fba3b11d8e4915b74c2c6225050aadc362ad1af1da9e0c2
+Section: Utilities
+Priority: important
+Homepage: http://www.darwinsys.com/file/
+Description: utility to determine file type
+ The file command is a standard Unix program for recognizing the type of data
+ contained in a computer file. It uses the "magic" library to read file
+ headers and perform other tests to determine the file type.
+Name: file
+
+Package: flex
+Version: 2.6.4-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: m4
+Filename: ./debs/flex-2.6.4-1-iphoneos-arm.deb
+Size: 258684
+MD5sum: 7e57ef8d67b471226ed193c40f6758f1
+SHA1: a50aeae79071b3a29919943f3eb95e4c847c93fd
+SHA256: eef08f269db573fcd32579c71069522c93b7fcdd59a52c78c7f529027ced0002
+Section: Development
+Priority: standard
+Description: GNU lexer derived from Lex
+Name: Flex
+
+Package: gawk
+Version: 5.3.2-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: gettext, gmp, readline, mpfr, cfframework
+Filename: ./debs/gawk-5.3.2-1-iphoneos-arm.deb
+Size: 1768628
+MD5sum: 1fc47e153c4d237c9b65c8b8601adeb1
+SHA1: 6ad8443222056c4f8bf4ba35f2d53110ad84ecf5
+SHA256: e097057a944ec9339e724d61f5d7fe83b0629909d599a993aa78ae9f5c9a0444
+Section: Utilities
+Priority: important
+Description: GNU's heavy-weight implementation of awk
+Name: Gawk
+
+Package: gettext
+Version: 0.26-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses, libiconv, libunistring
+Filename: ./debs/gettext-0.26-1-iphoneos-arm.deb
+Size: 10506242
+MD5sum: 311f294382fb3a1d1a845f1d2a30e075
+SHA1: 6c3cdb95e367527da7d66dafa53b0f893d2c13fb
+SHA256: 1f7b0ed3bb71656bc8cdab0964d138fdb9986702567277bea2fc792903490ef2
+Section: System
+Priority: important
+Homepage: http://www.gnu.org/software/gettext/
+Description: internationalization helper for strings
+
+Package: gmp
+Version: 6.3.0-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Installed-Size: 552
+Filename: ./debs/gmp-6.3.0-1-iphoneos-arm.deb
+Size: 1060490
+MD5sum: d83eab05096096d143e854d819f9c6c2
+SHA1: 421beacc7e4c9b03aa2a7ec995984a023fcd865b
+SHA256: 9db74dc9e577b7df8713a841ed97e9b5cf85650ef40a9a91ff61f32113e16149
+Section: Development
+Priority: optional
+Homepage: http://gmplib.org/
+Description: (Big) Arithmetic Library
+Name: GNU Multiple Precision
+
+Package: gnutls
+Version: 3.8.10-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Installed-Size: 1604
+Depends: gcrypt, gettext, readline, gmp, nettle, cfframework, sframework
+Filename: ./debs/gnutls-3.8.10-1-iphoneos-arm.deb
+Size: 12647522
+MD5sum: d07905a9cf9d39db294e408b52b6e9f1
+SHA1: 9eb8e201fea9609bd55b87f998e524aabf81d0df
+SHA256: 24574fc168cfc209d3da1f29b1e620295c1c5dd1c28841175150156d00128f86
+Section: Security
+Priority: optional
+Homepage: http://www.gnu.org/software/gnutls/
+Description: free sofware alternative to OpenSSL
+Name: GnuTLS
+
+Package: grep
+Version: 3.12-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: pcre2, gettext, libiconv
+Filename: ./debs/grep-3.12-1-iphoneos-arm.deb
+Size: 434490
+MD5sum: bbe08625cab3878ad76813f2f2ef072f
+SHA1: 57db6d55e441eb08704a0d9262b79a7d3829ddb9
+SHA256: 54aa7b6abc6fddefa08172a77b9ece0b619d0a7e57672f1089298f7a881627bf
+Section: Utilities
+Description: searches files from regular expressions
+
+Package: headfile
+Version: 6.1-1
+Architecture: iphoneos-arm
+Maintainer: Alexander <aalx2176@gmail.com>
+Filename: ./debs/headfile-6.1-1-iphoneos-arm.deb
+Size: 2480524
+MD5sum: 195733cd643751b0fb568507bc04e0ad
+SHA1: 19b91eade476f93b0ee0365feadde4415adbf226
+SHA256: 6fc92922ae1d6c89209bea261b927438bd2a12f0be0d2c904c06f4d34d6b540d
+Section: Development
+Priority: optional
+Description: header files and dynamic libraries for gcc/clang to compile the C/C++ source files.
+ This package provides useful headers and basic libraries from iOS 6.1 SDK. No LibC++ or libgcc_s included (see libgcc and clang packages). No C++11 or C++14 headers included (only GCC 4.2.1 C++03 headers. c++/v1 included only in Clang package).
+ Most of libraries and some headers (there are many useful headers which are not included in iPhoneOS SDK. For iOS 6, you can use OSX 10.9 SDK) may not be included. You can add iPhoneOS6.1.sdk contents yourself
+ Actually, most libraries are missing. But this package is a headfiles pack, so good luck with development
+ About libraries â€“ libSystem.B (aka libSystem, libpthread, libdl, libc) and libstdc++ included. For Clang use -stdlib=libstdc++. But it's better to not :D. Use -stdlib=libc++ (which supports up to C++14)
+ And one more thing (c). Why is it so incomplete? The only reason is to be compatible with old headfile package with iOS 4 SDK. Imagine what if my SDK could overwrite your files? Scary, isn't it? You can cp from SDK to /usr/lib. Anyway, header set is probably complete (excluding OSX extensions like crt_externs.h/telnet.h/_types (in sys)/etc)
+ DIFFERENCE BETWEEN MY HEADFILE AND OLD: libraries are armv7/armv7s now (previously armv6/armv7 (sorry, 2G/3G users!)); atomic builtins bugs are fixed now (they are unsupported for armv6 anyway, but now there is no implicit assumption of their presence in libSystem.B which previously broken pthereads in Autotools (AV_CV_ATOMIC_BUILTINS). Clang now uses assembly implementation, so bug is finally fixed); headers are fixed now (by apple), so boolean type fully supported (previously true was defined as (bool)1, which broken EVERYTHING. now as 1); dylibs are smaller now because of using dyld cache (I think so, they are text-based, but binaries work as well); c++ StdLib is now 4.2.1 (previously 4.0.0 (4.0.0 included anyway). (all of them are mostly fixed by apple of course)
+ Notice that headers are located at /usr/local/include (old headfile package's legacy)
+ WARNING (!!!): GCC IS NOT SUPPORTED!! YOU CAN DOWNLOAD THE HEADERS (by unpacking deb), but DO NOT replace dylibs if you use GCC, IT DOES NOT SUPPORTS ARMV7!!!! you can use clang as well
+Name: Software Development Kit
+
+Package: jq
+Version: 1.8.1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/jq-1.8.1-iphoneos-arm.deb
+Size: 2006914
+MD5sum: 2732a17d9257c3ea1b073925c36157af
+SHA1: f98ed0a810b9e7be64a7055aba47889349e81055
+SHA256: e75295784b4d9072331ba2b781c63c25ce15f56d149cef273ceec80218fe7e7c
+Section: Utilities
+Homepage: https://jqlang.github.io/jq/
+Description: A lightweight and flexible command-line JSON processor
+Author: Stephen Dolan
+Name: jq (JSON Processor)
+
+Package: libedit
+Version: 3.1-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/libedit-3.1-1-iphoneos-arm.deb
+Size: 392694
+MD5sum: 78d110f392a24c3f536447f18a870e35
+SHA1: 6bc71a415b61fe6a2b5b8aab64458b88a305fa47
+SHA256: c6e9c8443c4de83e6055901fdaf27e3c1072bba97b66248a8da88fdae8acb383
+Section: System
+Description: BSD readline implementation
+
+Package: libffi
+Version: 3.5.2-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/libffi-3.5.2-1-iphoneos-arm.deb
+Size: 22042
+MD5sum: bfcbded3e0d7b417a68421c76c370fab
+SHA1: c6c43f3e1c42c89422365afab5b14eb064b347bf
+SHA256: d84713cb207d3340fb7fac65f86d988bdd5c7c25f8df69e0cb7234f822a96963
+Section: Development
+Priority: optional
+Description: dynamic generation of function calls
+
+Package: libgcc
+Version: 4.2.1-5636-1
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Installed-Size: 92
+Filename: ./debs/libgcc-4.2.1-5636-1-iphoneos-arm.deb
+Size: 11422
+MD5sum: f9b8f5587ef60bb5a17406ce6218e13a
+SHA1: a1faa6a495ac6dbf37fc4716378a6f7a9fe0b533
+SHA256: 425ff5361a947aa5bede9a2123911f4bf5f135510012346fc48303786860f6fa
+Section: System
+Priority: required
+Description: core library used by everything
+
+Package: libiconv
+Version: 1.18-2
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Installed-Size: 1492
+Filename: ./debs/libiconv-1.18-1-iphoneos-arm.deb
+Size: 754618
+MD5sum: 5da4e158f53fc3950930e053dd35a94e
+SHA1: f88eaaa213452eef14eafd5360487cdccbbcbb8b
+SHA256: c8a1256b6b4acb610e5c28facff178f1d42bb24e89b86348b316acd2922618f8
+Section: Development
+Priority: optional
+Description: This package provides an open source iconv() implementation
+Name: libiconv
+
+Package: libresolv
+Version: 9
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/libresolv-9-iphoneos-arm.deb
+Size: 276794
+MD5sum: e09149538384bd6ba60ccb7e67ec573b
+SHA1: 406f6db53f7ca0e59a413ccc9980a0a45c916366
+SHA256: d4ee81aca689ba19f4cbd87640af185314a60832c87eaa17a11576cdc5763ca7
+Section: System
+Priority: required
+Description: useful network library
+
+Package: libressl
+Version: 4.1.1-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Conflicts: openssl, libssl0.9.8, libssl1.0, libssl1.1.1
+Replaces: openssl, libssl0.9.8, libssl1.0, libssl1.1.1
+Provides: openssl, libssl0.9.8, libssl1.0, libssl1.1.1
+Filename: ./debs/libressl-4.1.1-iphoneos-arm.deb
+Size: 8414476
+MD5sum: 234e2f5daa4377d586077d56bda8bda3
+SHA1: ff1b473efe3ff648c9984610af7aa5a00f86cb16
+SHA256: faee970be8345c3ddd3a49e838da21a6de09aed057d8ee28b1418230e4308f6b
+Section: Security
+Priority: standard
+Description: Modern SSL library. OpenSSL libraries 0.9.x/1.x included for compatibility
+Name: LibreSSL
+
+Package: libtool
+Version: 2.5.4-2
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Installed-Size: 2311
+Conflicts: com.deltaman.libtool
+Replaces: com.deltaman.libtool
+Provides: com.deltaman.libtool
+Filename: ./debs/libtool-2.5.4-2-iphoneos-arm.deb
+Size: 760032
+MD5sum: 5251f6037589247778784e51ee7ce95a
+SHA1: eb188c2612fa00ac9357bc6611f5d8a27d6095aa
+SHA256: d8a95dc7cb2f10bcd6a072aed81bff417930799221ea8c43fcf68a7524a57008
+Section: Development
+Description: GNU build system for portable libraries.
+Tag: purpose::console
+Name: libtool
+
+Package: libunistring
+Version: 1.4-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libiconv
+Filename: ./debs/libunistring-1.4-1-iphoneos-arm.deb
+Size: 2228546
+MD5sum: 44f77afa6449c97348f3bcf41062b372
+SHA1: 689fecc6e1b82f53c6f1904a0689cb46d06479b3
+SHA256: 673b7fcc6757bb55183198e3b64f2f995422bd3e38784a9206af47ff0ec458f4
+Section: System
+Priority: important
+Description: C string library for manipulating Unicode strings
+
+Package: lua
+Version: 5.4.8-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/lua-5.4.8-1-iphoneos-arm.deb
+Size: 376340
+MD5sum: 107db58f512a2d908a062fc9cbb75ebb
+SHA1: 597a365b28191856306f379fffdb5be96f5082fe
+SHA256: 71823884c03d7a9ced47cf8bef632fdf0ff1a4c716a8f5f229b79260aac06fee
+Section: Development
+Description: simple scripting programming language
+
+Package: luajit
+Version: 2.1.1761727121-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/luajit-2.1.1761727121-1-iphoneos-arm.deb
+Size: 947766
+MD5sum: 5c7f810bdcc18288c10a939b44956714
+SHA1: 807030e299d397e5727687230cdf96a6173679b4
+SHA256: 05c0a45bf9e7f01c196f21fe30bf22e5c88a1b77634372b29be2e4a63ccf94a9
+Section: Development
+Description: Lua Just-in-Time interpreter
+
+Package: lzip
+Version: 1.25-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/lzip-1.25-1-iphoneos-arm.deb
+Size: 130436
+MD5sum: 8c5d7c747d5d290e48abe81c078f636e
+SHA1: c4ac4268dcd68a61d6c375991e1bb7bf1d923b28
+SHA256: 77d294108bd43ed2692c44f6ebdfddf2279ed13f6967a140a5221465d10671ba
+Section: Archiving
+Priority: optional
+Homepage: http://www.nongnu.org/lzip
+Description: yet another encryption algorithm
+Name: LZip
+
+Package: m4
+Version: 1.4.20-4
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Installed-Size: 433
+Filename: ./debs/m4-1.4.20-4-iphoneos-arm.deb
+Size: 1274546
+MD5sum: fd500a4fdebd218f9b5484f23d2561fc
+SHA1: f39470591551209638b279dfea3ee9f9131d5b9b
+SHA256: 5d04d9126d00114814e074fdd174abadf57a73da4331f292a15f84cdc6846849
+Section: Scripting
+Priority: important
+Description: arcane macro processing engine
+Name: m4 Processor
+
+Package: make
+Version: 4.4.1-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Installed-Size: 1023
+Filename: ./debs/make-4.4.1-1-iphoneos-arm.deb
+Size: 891798
+MD5sum: 286b5a44529154dc40302d5dae8bf14a
+SHA1: c33f2d6595aeaef30f5ca55125f12f8aed345cb0
+SHA256: 928b5d8705797bb27f2cfd1acbf198fb0ad1786901a2fa58ab2e56a8220688f1
+Section: Development
+Priority: important
+Description: dependency-based build environments
+Name: Make
+
+Package: mc
+Version: 4.8.13-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: slang, glib, ncurses
+Filename: ./debs/mc-4.8.13-1-iphoneos-arm.deb
+Size: 3138616
+MD5sum: b34d70bc53a9421ce1b357ee8bdd0bd5
+SHA1: f69e699a716f9f067973bab1a16cbda1f18c7be6
+SHA256: 8cc111f8d7ffe448b485daeafd52d6d10f244d8566944beeb4e68eb275419207
+Section: Utilities
+Description: versatile visual file manager for Unix-like systems.
+Name: Midnight Commander
+
+Package: mpc
+Version: 1.3.1-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: gmp, mpfr
+Filename: ./debs/mpc-1.3.1-1-iphoneos-arm.deb
+Size: 156878
+MD5sum: 9521f19549490ad294d4b2b8830e7533
+SHA1: 05d6093f61ef9c7ce54371f23e70e79131a4f161
+SHA256: 5149d6434a78d6b77e911b84d07d86c2d42d5b4bb0d654c1f6e54005ac33a135
+Section: Development
+Homepage: https://www.gnu.org/software/mpc/
+Description: Multiple-precision complex arithmetic library
+
+Package: mpfr
+Version: 4.2.2-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: gmp
+Filename: ./debs/mpfr-4.2.2-1-iphoneos-arm.deb
+Size: 768992
+MD5sum: b75dd3c15e4a4cbf4e1a3461584b4ed0
+SHA1: 293f92ae9eadc52236d8fdd11969641c44e64848
+SHA256: 0cbffbe052a3e90624cf392663d3593b91f40cdcb247ada8600236d09861c814
+Section: Development
+Homepage: https://www.mpfr.org/
+Description: Multiple-precision floating-point computation library
+Author: The MPFR Team
+
+Package: nano
+Version: 8.6-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Installed-Size: 380
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Filename: ./debs/nano-8.6-1-iphoneos-arm.deb
+Size: 560442
+MD5sum: d7364fa72f7ab18b38c7cc2ba396b68e
+SHA1: 785534aa0fc250c8c23e849e38a62973e0ffbdf2
+SHA256: 1172d61f99d4070b5b345352d13a52baa526e0a1c487fc4a8762308ba0abc3b8
+Section: Text_Editors
+Priority: standard
+Description: completely free, modern clone of Pico
+
+Package: ncdu
+Version: 1.22-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: ncurses
+Filename: ./debs/ncdu-1.22-1-iphoneos-arm.deb
+Size: 91550
+MD5sum: 9e95f7f5b312e9d2fdfaf9167373ddc0
+SHA1: f16a0a26daa3561759fdd6d4a58c632a87f6b99f
+SHA256: ea40063d5e9740b0e3a1a76a28fd65b62d4cd4e31cdea499d93a991bb68d8140
+Section: System
+Homepage: https://dev.yorhel.nl/ncdu
+Description: disk usage analyzer
+Author: Yorik Tews
+Name: NCurses Disk Usage
+
+Package: nettle
+Version: 3.10.2
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: gmp
+Filename: ./debs/nettle-3.10.2-1-iphoneos-arm.deb
+Size: 2011514
+MD5sum: a917105360105eafa8800719f0cbf7b3
+SHA1: 86d23832f6e81e8d31fb492b2f40ac9aea6e5ffd
+SHA256: 381653396fc5ad2ee663db63881214aa8d64b277bcf4ed25b05626234e4feab3
+Section: Development
+Priority: optional
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Description: low-level cryptographic library
+
+Package: nghttp2
+Version: 1.67.1-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: zlib
+Conflicts: libnghttp2-14
+Replaces: libnghttp2-14
+Provides: libnghttp2-14
+Filename: ./debs/nghttp2-1.67.1-1-iphoneos-arm.deb
+Size: 676120
+MD5sum: eda1d4f464bae0a9744f7bb0b36c6403
+SHA1: ca00d5107042c78ced4d91a5c1b0181f870fb25c
+SHA256: 937f6a498955911448eb95e991f90330036c43aec4ef4345f5f31d7971388fae
+Section: Development
+Homepage: https://nghttp2.org/
+Description: C library implementing HTTP/2 protocol
+Author: Tatsuhiro Tsujikawa
+Name: nghttp2
+
+Package: ninja
+Version: 1.8.2-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/ninja-1.8.2-1-iphoneos-arm.deb
+Size: 77854
+MD5sum: 6715fd0e5f629a9e2413f2479f234364
+SHA1: 5b219bc7d8da8f1cf625d28d205264b51937a770
+SHA256: d5ee1cf37ac834c22b7efb4f61564dd942be17fd0e53dff73790bcbe7f4ccc47
+Section: Development
+Homepage: https://ninja-build.org/
+Description: A small build system with a focus on speed
+Author: Evan Martin <evan@ninja-build.org>
+Name: Ninja
+
+Package: oksh
+Version: 7.7-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: ncurses
+Filename: ./debs/oksh-7.7-1-iphoneos-arm.deb
+Size: 161506
+MD5sum: 221e6033ada3a2ae60597cc6c79afb43
+SHA1: 2be18c8256e5e4f5d5d11510891434a417cfc9b9
+SHA256: 71f367fb084a53be7634523dececfa5c8944929c6eab6ad052d59285bb2e7647
+Section: Terminal_Support
+Homepage: https://github.com/ibara/oksh
+Description: OpenBSD Korn shell, a lightweight and portable sh.
+Author: The OpenBSD Project & Issei Furutani
+Name: OpenBSD Korn Shell
+
+Package: openssh
+Version: 10.2-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: libressl, zlib, libresolv, libedit, ncurses
+Conflicts: openssh-global-listener, openssh-server, openssh-client
+Replaces: openssh-global-listener, openssh-server, openssh-client
+Provides: openssh-global-listener, openssh-server, openssh-client
+Filename: ./debs/openssh-10.2-1-iphoneos-arm.deb
+Size: 2940948
+MD5sum: 588c5dc65cccc1275f5671d4a6bc60c1
+SHA1: 7cbaab45f2c4bee20e97bae1073dedc794098138
+SHA256: c62934fd61bb8719ec36a7d864271ed53ea185de0b4263e5a717525e407d932e
+Section: Security
+Priority: standard
+Description: secure shell client and server
+Name: OpenSSH
+
+Package: pcre2
+Version: 10.47-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/pcre2-10.47-1-iphoneos-arm.deb
+Size: 1259220
+MD5sum: a5b7a0b3a8accc825ceed85de6ff72fa
+SHA1: fe79617cdd21f1b63ec9b0fd2f92f05ac7f0da23
+SHA256: 9d0bed9a9d1da070e5f6f1c3b84aa93be1299c15d9f063cd135a821dc784fe6e
+Section: Development
+Priority: required
+Description: new version of Perl-compatible regular expressions library
+
+Package: perl
+Version: 5.42.0-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Installed-Size: 97936
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/perl_5.42.0-1_iphoneos-arm.deb
+Size: 21364332
+MD5sum: 1708e5e3d930a07e8138ae23abf0d6aa
+SHA1: 7fc9b7f6c2ffeab8b8bc35e3bcdd34e638b6f07e
+SHA256: 58e79cb8648e84f977a9577828e36dc711d88a3be3b247e0f95cb1683a5048b8
+Section: Scripting
+Priority: optional
+Description: awesome combination of sed and awk
+Name: Perl
+
+Package: pigz
+Version: 2.8-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: zlib
+Filename: ./debs/pigz-2.8-1-iphoneos-arm.deb
+Size: 106648
+MD5sum: 07c0e0fa765f0ea7f8f4e107fa22c921
+SHA1: 702bbd2afdc051238d6fab3bdf9885591e742a58
+SHA256: 91e60192e848d55722181d1a9690b5d14ff02cdc8adcbac968ed3f8da5f70c35
+Section: Utilities
+Priority: required
+Description: parallel gnuzip
+
+Package: pkg-config
+Version: 0.29.2-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Installed-Size: 276
+Depends: glib
+Filename: ./debs/pkg-config-0.29.2-iphoneos-arm.deb
+Size: 74678
+MD5sum: be266ae2e8b468436355e82d6221b43b
+SHA1: 9954cc56db2b2cc7cd7d933580ecdc034c675f2c
+SHA256: ee81436a52cd7c537b5af2b580c665a4b7038232763e0bc9faae3607eebb1a95
+Section: Development
+Priority: optional
+Homepage: http://pkg-config.freedesktop.org/
+Description: allows tight coupling and sloppy PATHs
+Name: Package Config
+
+Package: plotutils
+Version: 2.6-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/plitutils-2.6-1-iphoneos-arm.deb
+Size: 1363638
+MD5sum: 6d866e44d674aa3c40ac91e60be1c4cd
+SHA1: 39ab5c4d504a5914c38d381a0290e390090f98e9
+SHA256: 0bccb6ffa9fff4535db8ec2c5097973b4c15bc396353c4d2c33604a73126f1c7
+Section: Utilities
+Priority: standard
+Description: make a function plot
+Name: GNU Plotutils
+
+Package: python
+Version: 2.7.18-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: gettext, libressl, readline, zlib, ncurses, bzip2-dev, bzip2
+Filename: ./debs/python-2.7.18-1-iphoneos-arm.deb
+Size: 20825488
+MD5sum: ce6ceed577c2c695395c847f1c46cb19
+SHA1: 61bf875e608291fdce04c5414b0132b79e013abe
+SHA256: e4f00d634b60ae2ff64a75224364d6f082fbb29f1a1656aaac5eb34112fbf384
+Section: Development
+Priority: optional
+Homepage: https://www.python.org/
+Description: Python is an interpreted, interactive, object-oriented programming language.
+Name: Python
+
+Package: python1
+Version: 1.6-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/python1-1.6-1-iphoneos-arm.deb
+Size: 3009830
+MD5sum: 291c3285c44fc4e11e7b1ee86aa623dc
+SHA1: bb25334beb32281339b2887c1519ea761cbc6154
+SHA256: cee167f32bfe0160e6c7972929d752a000533a49c378eaea8dc33eb6fd65277f
+Section: Development
+Priority: optional
+Homepage: https://www.python.org/
+Description: Python is an interpreted, interactive, object-oriented programming language.
+Name: Python 1.6
+
+Package: python3
+Version: 3.10.0-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: gettext, ncurses, libressl, bzip2, bzip2-dev, readline, uuid, sqlite3, xz
+Filename: ./debs/python3-3.10-1-iphoneos-arm.deb
+Size: 47071656
+MD5sum: 39a28817aa20c52a17a6d5a47bc6030f
+SHA1: bd7772ff9820da50db09e8b1d540a5e7be21aea1
+SHA256: 0f0fc86e862ee628e4f974a2f21bac62608a32e9d3f712ef4caa9579a31275f5
+Section: Development
+Priority: optional
+Homepage: https://www.python.org/
+Description: Python is an interpreted, interactive, object-oriented programming language.
+Name: Python 3.10
+
+Package: readline
+Version: 8.3-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Installed-Size: 1492
+Depends: dpkg
+Filename: ./debs/readline-8.3-1-iphoneos-arm.deb
+Size: 1521840
+MD5sum: 6d05ed992c5b67f9ddeb6b63c0ce437f
+SHA1: 629311ab6ad35da2f0fc2da6ed052b05cbecdef1
+SHA256: 92fb4c81fb75a2814b307cb85d60f9119352cb6e6c2c4d264b627d5ddb69f9eb
+Section: Development
+Priority: required
+Description: command-line history management
+Name: readline
+
+Package: screen
+Version: 4.9.1-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: ncurses
+Filename: ./debs/screen-4.9.1-1-iphoneos-arm.deb
+Size: 523528
+MD5sum: 91042ca4ef6bc55be484a48ba0c0acbd
+SHA1: 5642d0b3404d5b588b51df011ec39a48fcb2d690
+SHA256: 45047ff0202502a6442b20542d22dcb52386103572daa5ba266452c30bc63f88
+Section: Terminal_Support
+Priority: important
+Description: multiplexes a terminal into many
+Name: Screen
+
+Package: sed
+Version: 4.8-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Installed-Size: 180
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/sed-4.8-1-iphoneos-arm.deb
+Size: 707224
+MD5sum: c7da5c707d0fbe41e16eca8b86e1c3ca
+SHA1: 8f8505305971fbf9bced0d7cbeb7429639e0b3f4
+SHA256: 4e5f330e437770a0c58a0a065e58ed901bdf34f327730fb563b60f63820d8f8c
+Section: Utilities
+Priority: important
+Homepage: http://www.gnu.org/software/sed/
+Description: edits streams of text using patterns
+
+Package: serf
+Version: 1.4.0-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: apr, apr-util, libressl, zlib
+Filename: ./debs/serf-1.4.0-1-iphoneos-arm.deb
+Size: 241276
+MD5sum: 586aad0bbfb4e33ab4f5ab942f277fce
+SHA1: 1f9a63b0d54f0bc74ba71d77a719f4f519455506
+SHA256: c587d6ecdd15b4f921e5c53f950710a3ebe0ec2fd4bbe069edf76a6710fc1f0c
+Section: Development
+Priority: optional
+Homepage: https://serf.apache.org/
+Description: high-performance asynchronous HTTP client library
+Name: Serf
+
+Package: sframework
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: cfframework
+Filename: ./debs/sframework-1.0-iphoneos-arm.deb
+Size: 376486
+MD5sum: f56434b9feb733abcf1810d34ae40c87
+SHA1: a1e24e5eab6dffb226bdbf353a89d5027c1e0dae
+SHA256: 6c485585c67be5de54dfabd426f474b64ea35fe17a0d176ff030d59017f6367b
+Section: Development
+Description: Provides Security.framework
+Name: Security Framework
+
+Package: slang
+Version: 2.3.3-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <your@email.com>
+Depends: ncurses
+Filename: ./debs/slang-2.3.3-1-iphoneos-arm.deb
+Size: 3318418
+MD5sum: 8a7a5c6a3dbb053b84d3b2bc3f5dd510
+SHA1: 5581cc1ce318381b03f8885a4ba128042fbe98f7
+SHA256: 5e84c5b259eb66231fc4617c0d0c3bdeef5add5efb960dc73670d7876f64bbdd
+Section: Utilities
+Description: powerful scripting language
+Name: S-Lang
+
+Package: sqlite3
+Version: 3.51.0-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Conflicts: sqlite3-lib
+Replaces: sqlite3-lib
+Provides: sqlite3-lib
+Filename: ./debs/sqlite-3.51.0-1-iphoneos-arm.deb
+Size: 2563142
+MD5sum: 75c581bc404f58f5c7082d834dd57b47
+SHA1: 771592f4dcf22ad821ebd297792e23cd83dacd63
+SHA256: 092b6703f6ec7d16efe8e0034c3810dc13cb75436ffb794170f470eb0187b7e8
+Section: Data_Storage
+Priority: standard
+Description: Command line shell for SQLite
+Name: SQLite
+
+Package: subversion
+Version: 1.14.5-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: apr, apr-util, expat, neon, serf, zlib, libressl, sqlite3, lz4, gettext, file
+Filename: ./debs/subversion-1.14.5-1-iphoneos-arm.deb
+Size: 9890796
+MD5sum: 0b3d8fe56835310d996a7992de5e4137
+SHA1: 5a7d5ee23399fe26ca1aad853d5ec0ee1a26ca28
+SHA256: 4f8a26509b7205e543b576aa2f7fb22cc434af573434297e59ae0204cd4dd7e4
+Section: Data_Storage
+Priority: standard
+Description: modern version control system
+Name: Subversion
+
+Package: sudo
+Version: 1.9.17p2-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx)
+Installed-Size: 748
+Filename: ./debs/sudo-1.9.17p2-1-iphoneos-arm.deb
+Size: 5967010
+MD5sum: 186a38a64b9c3ef54f1a89b1583fe04a
+SHA1: e3995e72319ecce1c5c4b1cc54f9cfb34eb95cb7
+SHA256: 6532f8e18544dd7fe7b5825886c4405cf27949c99c11a8cbb0cb3dcfe35b3cb0
+Section: Administration
+Priority: standard
+Description: temporarily assume root priviledges
+Name: sudo
+
+Package: swapon
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: bash | zsh
+Filename: ./debs/swapon-1.0-1-iphoneos-arm.deb
+Size: 1416
+MD5sum: 34119bc69591acea37fffe5192de88b6
+SHA1: 69453eca545b8a5c2b7aa395a5fa24623ef2fcf0
+SHA256: 3432b74874ea48c38b7bcff41f1c2c3e09d8d2dfc7d1d1a370532ae4fb9ac899
+Section: Utilities
+Description: ios swap implementation
+ Requires a Camera Connection Kit and a supported low-power USB device or SD
+ .
+ Usage:
+ 1. Connect your USB drive. It should be mounted at /var/mnt/mount1.
+ 2. Run 'swapon' from the terminal.
+ .
+ WARNING: Do NOT remove the USB drive while swap is active. To safely disable swap, reboot or run 'ldrestart'.
+Name: Swapfile
+
+Package: swig
+Version: 3.0.12-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Filename: ./debs/swig-3.0.12-1-iphoneos-arm.deb
+Size: 1365336
+MD5sum: 90a71e03295ef42632175bff9db593e9
+SHA1: 4342178b0040169c09581e55a2f3fe21f0d42f5b
+SHA256: 6b287424621490d98f5c68a6592cc1fae8b6f7378e43d1db8ef8cf0b377485f4
+Section: Development
+Description: Simplified Wrapper and Interface Generator
+Name: SWIG
+
+Package: tar
+Version: 1.35-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Installed-Size: 548
+Depends: bzip2, gzip, lzma
+Filename: ./debs/tar-1.35-1-iphoneos-arm.deb
+Size: 2429500
+MD5sum: 0843bf2f97e713473ebe0f5884e03a67
+SHA1: b5f07273048c78301931d0cf160e2ee102e49b20
+SHA256: 78c3f06f4a3c84ba3be8200534fca0e95bb6a32992593e46e6333c8a73e54cc7
+Section: Archiving
+Priority: required
+Homepage: http://www.gnu.org/software/tar/
+Description: tool for making tape archives.
+Name: Tape Archive
+
+Package: texinfo
+Version: 7.2-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: ncurses, gettext, cfframework, perl
+Filename: ./debs/texinfo-7.2-1-iphoneos-arm.deb
+Size: 2654438
+MD5sum: 65a90b7dcc26a7f334be9fbb57c82bf5
+SHA1: 5e561d52975b7a2d269f6c3f8d3d4acf35ee8af2
+SHA256: f1f91f9aa81fa57bbc0f852f6b5645e1bd88100a99fe8dc5e577408337d5b34f
+Section: Development
+Priority: optional
+Description: The GNU documentation system
+Name: Texinfo
+
+Package: tree
+Version: 2.3.2-1
+Architecture: iphoneos-arm
+Maintainer: Polina <aalx2176@gmail.com>
+Installed-Size: 219
+Filename: ./debs/tree_2.3.2-1_iphoneos-arm.deb
+Size: 66650
+MD5sum: 6612d4c50d3d3f5308fc8d6e28115252
+SHA1: b7b1978e8e203f8483c2817321e80219d30aa8ac
+SHA256: c7f33de6ee844d7f34291d8ab8eddef5d1a1c017f869dcbdf90617a8957e80c6
+Section: Utilities
+Priority: optional
+Homepage: https://gitlab.com/OldManProgrammer/unix-tree
+Description: recursive directory lister producing a depth indented listing of files
+
+Package: vim
+Version: 9.1-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Installed-Size: 20876
+Depends: ncurses, libgcc
+Filename: ./debs/vim-9.1-1-iphoneos-arm.deb
+Size: 10500896
+MD5sum: 30343c054f58cf675cdc5d2d78e39275
+SHA1: 9b7bc24afe127adfbcd0d5d07475a274cf47b6a6
+SHA256: d75189ea6c682039dbd880afc8976aa95278f889203b141ea823edafcaffe538
+Section: Text_Editors
+Priority: standard
+Description: text editor
+Name: Vi IMproved
+
+Package: wget
+Version: 1.25.0-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: gettext, pcre2, nettle, gnutls, zlib, libgcc
+Filename: ./debs/wget-1.25.0-1-iphoneos-arm.deb
+Size: 1723474
+MD5sum: c7d2aee06dcc8b9f977b186e5315f8c4
+SHA1: 417282890f3d18b1ba99fa825d351d6a9a1bd6c0
+SHA256: af58ec95fd6c8af2d95fe32b96ef89c936ba066c76aa12a8f2828029f0beae37
+Section: Networking
+Priority: important
+Description: simple HTTP file transfer client
+
+Package: zlib
+Version: 1.3.1-1
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Provides: libzlib
+Filename: ./debs/zlib-1.3.1-1-iphoneos-arm.deb
+Size: 158428
+MD5sum: 5cb1db297f90ba470de9b549d3e95381
+SHA1: cfb7e72525a750ae2d41a7a06565d231b56dccdb
+SHA256: 096516d50c23a033d136c5db9897a9ac8b25eff4d1d3934220f3e3a3d4f37337
+Section: Development
+Homepage: https://zlib.net/
+Description: A massively spiffy yet delicately unobtrusive compression library.
+Author: Jean-loup Gailly and Mark Adler
+Name: Zlib Compression Library
+
+Package: zsh
+Version: 5.9-2
+Architecture: iphoneos-arm
+Maintainer: Polina (AAlx) <aalx2176@gmail.com>
+Depends: ncurses, readline
+Filename: ./debs/zsh-5.9-2-iphoneos-arm.deb
+Size: 4636162
+MD5sum: 4f3538c23b54ce4d538d2e94009ad924
+SHA1: 0f1bfbfefefd3fceb80e580f54b41efd9ee3ce5f
+SHA256: 69b09e6fa6e4c3f684c2e3acb9f809c996faba70adbb2edbe53bd04ef930cbcf
+Section: Terminal_Support
+Description: Zsh is a powerful shell with scripting language, interactive command-line editing, and many other features.
+Name: Z Shell
+

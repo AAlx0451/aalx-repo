@@ -1,0 +1,72 @@
+Repository news
+===============
+
+2026-05-05:
+- [REPO] added CydiaIcon.png
+
+2026-04-19:
+- [UPD] [UTIL] tree-2.3.2-1
+
+2026-04-18:
+- [UPD] [DEVEL] python-2.7.18-1 [[locat: /var/stash + symlink]] [[note: .dylib libpython]]
+- [NEW] [DEVEL] python1-1.6-1, python3-3.10-1 [[locat: /var/stash + symlink]] [[note: .a libpython]]
+
+2026-01-03:
+- [UPD] [DEVEL] bison-3.8-1
+- [NEW] [DEVEL] swig-3.0.12-1
+- [REPL] [DEVEL] clang-installer-2.0 [[note: leads to clang-7.1/lldb-7.1]]
+- [EXT] python-2.7.2-5 [[deprecated: python-2.7.18]]
+
+2025-11-15:
+- [UPD] [SYS] gettext-0.26-1, libunistring-1.4-1
+
+2025-11-08:
+- [NEW] [DEVEL] chicken-5.4.0-1, ecl-24.5.10-1, libffi-3.5.2-1, luajit-2.1.1761727121-1, texinfo-7.2-1, libiconv-1.18-1
+- [NEW] [EDIT] emacs-30.2-1
+- [NEW] [UTIL] pigz-2.8-1, tree-2.1.3-1
+- [UPD] [DEVEL] pcre2-10.47-1, serf-1.4.0-1
+- [UPD] [UTIL] gawk-5.3.2-1, grep-3.12-1, sed-4.8-1, file-5.46-1
+- [UPD] [SYS] libgcc-4.2.1-5636-1, libresolv-9
+- [UPD] [ADM] sudo-1.9.17p2-1
+- [NEW] [DEVEL] clang-3.9 [[deprecated: clang-installer-2.0]]
+
+2025-10-20:
+- [UPD] [SECUR] openssh-10.2-1
+- [UPD] [DEVEL] pcre2-10.46-1
+- [NEW] [SYS] libedit-3.1-1
+- [NEW] [DEVEL] headfile-6.1
+- [DOWN] [DEVEL] csu-224-1 [[note: saurik's 232-2 version number is incorrect]]
+
+2025-10-18:
+- [UPD] [STOR] subversion-1.14.5-1
+- [NEW] [DEVEL] expat-2.7.3-1
+- [UPD] [STOR] sqlite3-3.51.0-1
+- [UPD] [UTIL] file-5.46-1
+- [NEW] [DEVEL] bzip2-dev-1.10
+
+2025-10-14:
+- [NEW] [DEVEL] cmake-3.24.4-1 [[deprecated: cmake-3.4.3-1]]
+- [NEW] [DEVEL] ninja-1.8.2-1
+- [UPD] [DEVEL] flex-2.6.4-1, apr-1.7.6-1
+- [REPL] [SECUR] libressl-4.1.1-1 [[compat: openssl 0.9, 1.0, 1.1 included]] [[important]]
+
+2025-10-10:
+- [UPD] [NET] wget-1.25.0-1
+- [NEW] [ARCH] lzip-1.25-1
+- [UPD] [EDIT] vim-9.1-1
+- [NEW] [TERM] dash-0.15.13-1
+
+2025-09-28:
+- [UPD] [DEVEL] gcc 4.2.1-5636-2 [[deprecated: clang-installer-2.0]]
+- [NEW] [TERM] oksh-7.7-1 and zsh-5.9-2
+- [NEW] [NET] c-ares-1.34.5-1, nghttp2-1.67.1-1
+- [UPD] [NET] curl-8.16.0-1
+- [UPD] [ARCH] tar-1.35-1
+- [UPD] [EDIT] nano 8.6-1
+- [NEW] [DEVEL] zlib-1.3.1-1.
+
+2025-09-19:
+- [UPD] [TERM] bash 5.3-2, readline 8.3-1 [[compat: 6.0 included]]
+- [UPD] [DEVEL] make-4.4.1-1, m4-1.4.20-1, libtool 2.5.4-1
+- [NEW] [SYS] ncdu-1.22-1
+- [UPD] [UTIL] mc 4.8.13-1

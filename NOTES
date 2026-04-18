@@ -1,0 +1,12 @@
+ Notes on this repo
+====================
+
+- this repo expects a specific setup: p0sixpwn'd iOS 6 updated from bingner repo with all latest certs, if you're using any other setup, PLEASE check all packages before installation to preserve your device from bootloop. anyway most of packages are pretty safe to install, but no warranties.
+
+- most of packages were latest at the compile time, some of packages were not "latest" but "much newer" (e.g. python3)
+
+- please set 9999 priority at the apt preferences to get this repo fully work: it's designed as Cydia/Telesphoreo-like repo and all packages were tested
+
+- DO NOT install this repo if you hadn't updated from apt.bingner.com, it'll break your system
+
+- if you want to send me a package request, you can both email me or open a GitHub issue
